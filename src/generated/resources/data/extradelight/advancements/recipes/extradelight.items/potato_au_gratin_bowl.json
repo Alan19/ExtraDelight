@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:potato_au_gratin_bowl"
+        "recipe": "extradelight:dynamic_feast/potato_au_gratin_bowl"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:potato_au_gratin_bowl"
+      "extradelight:dynamic_feast/potato_au_gratin_bowl"
     ]
   }
 }

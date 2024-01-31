@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:red_beet"
+        "recipe": "extradelight:dynamic_feast/red_beet"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:pasta_alfredo"
+        "recipe": "extradelight:mixing/pasta_alfredo"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:pasta_alfredo"
+      "extradelight:mixing/pasta_alfredo"
     ]
   }
 }

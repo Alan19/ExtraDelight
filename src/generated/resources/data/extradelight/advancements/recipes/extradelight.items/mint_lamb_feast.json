@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_hotdish": {
+    "has_any_ingredient": {
       "conditions": {
         "items": [
           {
             "items": [
-              "extradelight:mint_lamb_feast"
+              "minecraft:mutton"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_hotdish",
+      "has_any_ingredient",
       "has_the_recipe"
     ]
   ],

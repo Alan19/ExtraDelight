@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:frosting_magenta"
+        "recipe": "extradelight:mixing/frosting_magenta"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:frosting_magenta"
+      "extradelight:mixing/frosting_magenta"
     ]
   }
 }

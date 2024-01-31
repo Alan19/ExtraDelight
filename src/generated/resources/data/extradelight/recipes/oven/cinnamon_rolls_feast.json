@@ -7,7 +7,7 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "farmersdelight:wheat_dough"
+      "tag": "forge:dough"
     },
     {
       "tag": "extradelight:sweetener"

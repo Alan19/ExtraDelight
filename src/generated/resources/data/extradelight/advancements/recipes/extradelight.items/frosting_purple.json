@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:frosting_purple"
+        "recipe": "extradelight:mixing/frosting_purple"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:frosting_purple"
+      "extradelight:mixing/frosting_purple"
     ]
   }
 }

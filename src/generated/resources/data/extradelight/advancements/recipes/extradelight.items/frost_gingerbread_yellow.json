@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "extradelight:frosting_yellow"
-            ]
+            "tag": "forge:frosting/yellow"
           }
         ]
       },
@@ -15,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:frost_gingerbread_yellow"
+        "recipe": "extradelight:tool_on_block/frost_gingerbread_yellow"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:frost_gingerbread_yellow"
+      "extradelight:tool_on_block/frost_gingerbread_yellow"
     ]
   }
 }

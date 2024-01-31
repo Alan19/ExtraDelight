@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:chocolate_milkshake"
+        "recipe": "extradelight:mixing/chocolate_milkshake"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:chocolate_milkshake"
+      "extradelight:mixing/chocolate_milkshake"
     ]
   }
 }

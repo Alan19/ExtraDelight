@@ -7,16 +7,16 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "extradelight:gingerbread_cookie_dough"
+      "tag": "forge:cookie_dough/gingerbread"
     },
     {
-      "item": "extradelight:gingerbread_cookie_dough"
+      "tag": "forge:cookie_dough/gingerbread"
     },
     {
-      "item": "extradelight:gingerbread_cookie_dough"
+      "tag": "forge:cookie_dough/gingerbread"
     },
     {
-      "item": "extradelight:gingerbread_cookie_dough"
+      "tag": "forge:cookie_dough/gingerbread"
     }
   ],
   "recipe_book_tab": "meals",

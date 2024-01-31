@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:pumpkin_roll_feast_knife_feast"
+        "recipe": "extradelight:dynamic_feast/pumpkin_roll_feast_knife_feast"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:pumpkin_roll_feast_knife_feast"
+      "extradelight:dynamic_feast/pumpkin_roll_feast_knife_feast"
     ]
   }
 }

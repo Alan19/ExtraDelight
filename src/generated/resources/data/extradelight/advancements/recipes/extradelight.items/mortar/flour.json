@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:mortar/flour"
+        "recipe": "extradelight:dynamic_feast/mortar/flour"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

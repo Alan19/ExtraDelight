@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:lamb_stew_rice_feast"
+        "recipe": "extradelight:dynamic_feast/lamb_stew_rice_feast"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:lamb_stew_rice_feast"
+      "extradelight:dynamic_feast/lamb_stew_rice_feast"
     ]
   }
 }

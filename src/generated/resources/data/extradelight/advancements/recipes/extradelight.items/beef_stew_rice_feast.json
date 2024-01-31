@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:beef_stew_rice_feast"
+        "recipe": "extradelight:dynamic_feast/beef_stew_rice_feast"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:beef_stew_rice_feast"
+      "extradelight:dynamic_feast/beef_stew_rice_feast"
     ]
   }
 }

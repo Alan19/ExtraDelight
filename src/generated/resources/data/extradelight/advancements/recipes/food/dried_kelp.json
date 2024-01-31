@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:dried_kelp"
+        "recipe": "extradelight:dynamic_feast/dried_kelp"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:dried_kelp"
+      "extradelight:dynamic_feast/dried_kelp"
     ]
   }
 }

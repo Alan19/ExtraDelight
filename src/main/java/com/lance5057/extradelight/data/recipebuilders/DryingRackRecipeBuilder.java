@@ -62,19 +62,18 @@ public class DryingRackRecipeBuilder implements RecipeBuilder {
 	}
 
 	public void save(Consumer<FinishedRecipe> pFinishedRecipeConsumer, ResourceLocation pRecipeId) {
-		this.ensureValid(pRecipeId);
+		ResourceLocation saveID = new ResourceLocation(pRecipeId.getNamespace(), "dynamic_feast/" + pRecipeId.getPath());
+		this.ensureValid(saveID);
 		this.advancement.parent(new ResourceLocation("recipes/root"))
-				.addCriterion("has_the_recipe", RecipeUnlockedTrigger.unlocked(pRecipeId))
-				.rewards(AdvancementRewards.Builder.recipe(pRecipeId)).requirements(RequirementsStrategy.OR);
-		
+				.addCriterion("has_the_recipe", RecipeUnlockedTrigger.unlocked(saveID))
+				.rewards(AdvancementRewards.Builder.recipe(saveID)).requirements(RequirementsStrategy.OR);
+
 		ResourceLocation r = new ResourceLocation(pRecipeId.getNamespace(),
-				"recipes/" + this.result.getItemCategory().getRecipeFolderName() + "/" + pRecipeId.getPath());
-		
-		pFinishedRecipeConsumer.accept(new DryingRackRecipeBuilder.Result(pRecipeId,
-				this.group == null ? "" : this.group, this.ingredient, this.result, this.experience, this.cookingTime,
-				this.advancement,
-				r,
-				this.serializer));
+				"recipes/" + result.getItemCategory().getRecipeFolderName() + "/" + pRecipeId.getPath());
+
+		pFinishedRecipeConsumer.accept(
+				new DryingRackRecipeBuilder.Result(saveID, this.group == null ? "" : this.group, this.ingredient,
+						this.result, this.experience, this.cookingTime, this.advancement, r, this.serializer));
 	}
 
 	/**

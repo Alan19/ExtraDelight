@@ -10,7 +10,7 @@
       "tag": "extradelight:processed/fruit"
     },
     {
-      "item": "farmersdelight:wheat_dough"
+      "tag": "forge:dough"
     }
   ],
   "recipe_book_tab": "meals",

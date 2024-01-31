@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:blue_corn"
+        "recipe": "extradelight:dynamic_feast/blue_corn"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

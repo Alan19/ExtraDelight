@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:frosting_white"
+        "recipe": "extradelight:mixing/frosting_white"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:frosting_white"
+      "extradelight:mixing/frosting_white"
     ]
   }
 }

@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:mashed_potato_gravy_bowl_feast"
+        "recipe": "extradelight:dynamic_feast/mashed_potato_gravy_bowl_feast"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:mashed_potato_gravy_bowl_feast"
+      "extradelight:dynamic_feast/mashed_potato_gravy_bowl_feast"
     ]
   }
 }

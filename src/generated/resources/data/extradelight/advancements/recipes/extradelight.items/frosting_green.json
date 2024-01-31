@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:frosting_green"
+        "recipe": "extradelight:mixing/frosting_green"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:frosting_green"
+      "extradelight:mixing/frosting_green"
     ]
   }
 }

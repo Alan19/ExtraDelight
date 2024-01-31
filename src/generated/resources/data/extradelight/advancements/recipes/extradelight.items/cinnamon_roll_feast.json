@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:cinnamon_roll_feast"
+        "recipe": "extradelight:dynamic_feast/cinnamon_roll_feast"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:cinnamon_roll_feast"
+      "extradelight:dynamic_feast/cinnamon_roll_feast"
     ]
   }
 }

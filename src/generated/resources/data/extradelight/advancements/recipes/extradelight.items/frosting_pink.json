@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:frosting_pink"
+        "recipe": "extradelight:mixing/frosting_pink"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:frosting_pink"
+      "extradelight:mixing/frosting_pink"
     ]
   }
 }

@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:frosting_cyan"
+        "recipe": "extradelight:mixing/frosting_cyan"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:frosting_cyan"
+      "extradelight:mixing/frosting_cyan"
     ]
   }
 }

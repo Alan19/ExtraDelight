@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:beet_mint_salad"
+        "recipe": "extradelight:mixing/beet_mint_salad"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:beet_mint_salad"
+      "extradelight:mixing/beet_mint_salad"
     ]
   }
 }

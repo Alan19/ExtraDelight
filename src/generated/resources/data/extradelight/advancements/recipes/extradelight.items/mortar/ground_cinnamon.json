@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:mortar/ground_cinnamon"
+        "recipe": "extradelight:dynamic_feast/mortar/ground_cinnamon"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

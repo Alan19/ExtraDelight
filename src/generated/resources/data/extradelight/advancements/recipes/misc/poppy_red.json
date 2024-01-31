@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:poppy_red"
+        "recipe": "extradelight:dynamic_feast/poppy_red"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

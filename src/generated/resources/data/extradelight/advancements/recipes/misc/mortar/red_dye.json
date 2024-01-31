@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:mortar/red_dye"
+        "recipe": "extradelight:dynamic_feast/mortar/red_dye"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

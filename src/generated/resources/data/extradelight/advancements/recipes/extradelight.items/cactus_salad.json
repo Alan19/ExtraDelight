@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:cactus_salad"
+        "recipe": "extradelight:mixing/cactus_salad"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:cactus_salad"
+      "extradelight:mixing/cactus_salad"
     ]
   }
 }

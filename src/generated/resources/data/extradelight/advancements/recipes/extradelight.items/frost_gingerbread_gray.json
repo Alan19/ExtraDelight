@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "extradelight:frosting_gray"
-            ]
+            "tag": "forge:frosting/gray"
           }
         ]
       },
@@ -15,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:frost_gingerbread_gray"
+        "recipe": "extradelight:tool_on_block/frost_gingerbread_gray"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:frost_gingerbread_gray"
+      "extradelight:tool_on_block/frost_gingerbread_gray"
     ]
   }
 }

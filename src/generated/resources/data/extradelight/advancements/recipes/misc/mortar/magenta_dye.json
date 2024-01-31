@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:mortar/magenta_dye"
+        "recipe": "extradelight:dynamic_feast/mortar/magenta_dye"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

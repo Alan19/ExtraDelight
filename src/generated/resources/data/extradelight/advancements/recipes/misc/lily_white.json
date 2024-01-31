@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:lily_white"
+        "recipe": "extradelight:dynamic_feast/lily_white"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

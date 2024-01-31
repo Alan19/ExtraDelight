@@ -60,7 +60,7 @@ public class OvenRecipeBuilder {
 	public OvenRecipeBuilder addIngredient(TagKey<Item> tagIn) {
 		return addIngredient(Ingredient.of(tagIn));
 	}
-	
+
 	public OvenRecipeBuilder addIngredient(TagKey<Item> itemIn, int quantity) {
 		for (int i = 0; i < quantity; ++i) {
 			addIngredient(Ingredient.of(itemIn));
@@ -112,29 +112,26 @@ public class OvenRecipeBuilder {
 
 	public void build(Consumer<FinishedRecipe> consumerIn) {
 		ResourceLocation location = ForgeRegistries.ITEMS.getKey(result);
-		build(consumerIn, ExtraDelight.MOD_ID + ":oven/" + location.getPath());
+		build(consumerIn, ExtraDelight.MOD_ID + ":" + location.getPath());
 	}
 
 	public void build(Consumer<FinishedRecipe> consumerIn, String save) {
-		ResourceLocation resourcelocation = ForgeRegistries.ITEMS.getKey(result);
-		if ((new ResourceLocation(save)).equals(resourcelocation)) {
-			throw new IllegalStateException("Cooking Recipe " + save + " should remove its 'save' argument");
-		} else {
-			build(consumerIn, new ResourceLocation(save));
-		}
+		build(consumerIn, new ResourceLocation(save));
 	}
 
 	public void build(Consumer<FinishedRecipe> consumerIn, ResourceLocation id) {
+		ResourceLocation saveID = new ResourceLocation(id.getNamespace(), "oven/" + id.getPath());
 		if (!advancement.getCriteria().isEmpty()) {
 			advancement.parent(new ResourceLocation("recipes/root"))
 					.addCriterion("has_the_recipe", RecipeUnlockedTrigger.unlocked(id))
 					.rewards(AdvancementRewards.Builder.recipe(id)).requirements(RequirementsStrategy.OR);
 			ResourceLocation advancementId = new ResourceLocation(id.getNamespace(),
 					"recipes/" + result.getItemCategory().getRecipeFolderName() + "/" + id.getPath());
-			consumerIn.accept(new OvenRecipeBuilder.Result(id, result, count, ingredients, cookingTime, experience,
+
+			consumerIn.accept(new OvenRecipeBuilder.Result(saveID, result, count, ingredients, cookingTime, experience,
 					container, tab, advancement, advancementId));
 		} else {
-			consumerIn.accept(new OvenRecipeBuilder.Result(id, result, count, ingredients, cookingTime, experience,
+			consumerIn.accept(new OvenRecipeBuilder.Result(saveID, result, count, ingredients, cookingTime, experience,
 					container, tab));
 		}
 	}

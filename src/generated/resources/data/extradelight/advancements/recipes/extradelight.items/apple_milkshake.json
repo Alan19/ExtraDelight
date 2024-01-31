@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:apple_milkshake"
+        "recipe": "extradelight:mixing/apple_milkshake"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:apple_milkshake"
+      "extradelight:mixing/apple_milkshake"
     ]
   }
 }

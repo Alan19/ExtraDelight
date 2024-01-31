@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:lgray_azure"
+        "recipe": "extradelight:dynamic_feast/lgray_azure"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

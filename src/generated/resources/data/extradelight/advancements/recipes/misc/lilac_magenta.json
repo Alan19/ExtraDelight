@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:lilac_magenta"
+        "recipe": "extradelight:dynamic_feast/lilac_magenta"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

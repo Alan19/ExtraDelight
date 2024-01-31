@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:charcuterie_feast"
+        "recipe": "extradelight:dynamic_feast/charcuterie_feast"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:charcuterie_feast"
+      "extradelight:dynamic_feast/charcuterie_feast"
     ]
   }
 }

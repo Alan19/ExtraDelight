@@ -103,14 +103,16 @@ public class MixingBowlRecipeBuilder implements RecipeBuilder {
 
 	@Override
 	public void save(Consumer<FinishedRecipe> pFinishedRecipeConsumer, ResourceLocation pRecipeId) {
-		this.ensureValid(pRecipeId);
+		ResourceLocation saveID = new ResourceLocation(pRecipeId.getNamespace(), "mixing/" + pRecipeId.getPath());
+		this.ensureValid(saveID);
 		this.advancement.parent(new ResourceLocation("recipes/root"))
-				.addCriterion("has_the_recipe", RecipeUnlockedTrigger.unlocked(pRecipeId))
-				.rewards(AdvancementRewards.Builder.recipe(pRecipeId)).requirements(RequirementsStrategy.OR);
-		pFinishedRecipeConsumer.accept(new MixingBowlRecipeBuilder.Result(pRecipeId, this.result, this.count,
+				.addCriterion("has_the_recipe", RecipeUnlockedTrigger.unlocked(saveID))
+				.rewards(AdvancementRewards.Builder.recipe(saveID)).requirements(RequirementsStrategy.OR);
+		pFinishedRecipeConsumer.accept(new MixingBowlRecipeBuilder.Result(saveID, this.result, this.count,
 				this.group == null ? "" : this.group, this.ingredients, this.advancement,
 				new ResourceLocation(pRecipeId.getNamespace(),
-						"recipes/" + this.result.getItemCategory().getRecipeFolderName() + "/" + pRecipeId.getPath()),
+						"recipes/" + result.getItemCategory().getRecipeFolderName() + "/"
+								 + pRecipeId.getPath()),
 				this.stirs, this.usedItem));
 	}
 
@@ -159,13 +161,13 @@ public class MixingBowlRecipeBuilder implements RecipeBuilder {
 			}
 
 			pJson.add("ingredients", jsonarray);
-			
+
 			JsonObject jsonobject = new JsonObject();
 			jsonobject.addProperty("item", Registry.ITEM.getKey(this.result).toString());
 			if (this.count > 1) {
 				jsonobject.addProperty("count", this.count);
 			}
-			
+
 			JsonObject jsonobject2 = new JsonObject();
 			jsonobject2.addProperty("item", Registry.ITEM.getKey(this.usedItem).toString());
 

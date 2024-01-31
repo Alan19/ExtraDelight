@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "extradelight:sugar_cookie_dough"
-            ]
+            "tag": "forge:cookie_dough/sugar"
           }
         ]
       },
@@ -15,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:honey_cookie_dough_sugar"
+        "recipe": "extradelight:mixing/honey_cookie_dough_sugar"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:honey_cookie_dough_sugar"
+      "extradelight:mixing/honey_cookie_dough_sugar"
     ]
   }
 }

@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:dried_fruit"
+        "recipe": "extradelight:dynamic_feast/dried_fruit"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:dried_fruit"
+      "extradelight:dynamic_feast/dried_fruit"
     ]
   }
 }

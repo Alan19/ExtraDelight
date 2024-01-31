@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:honey_ice_cream"
+        "recipe": "extradelight:mixing/honey_ice_cream"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:honey_ice_cream"
+      "extradelight:mixing/honey_ice_cream"
     ]
   }
 }

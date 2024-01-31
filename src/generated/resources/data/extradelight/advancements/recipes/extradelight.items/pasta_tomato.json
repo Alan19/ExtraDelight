@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:pasta_tomato"
+        "recipe": "extradelight:mixing/pasta_tomato"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:pasta_tomato"
+      "extradelight:mixing/pasta_tomato"
     ]
   }
 }

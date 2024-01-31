@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:frosting_brown"
+        "recipe": "extradelight:mixing/frosting_brown"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:frosting_brown"
+      "extradelight:mixing/frosting_brown"
     ]
   }
 }

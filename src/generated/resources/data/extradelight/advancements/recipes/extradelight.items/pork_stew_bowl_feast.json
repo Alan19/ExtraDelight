@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:pork_stew_bowl_feast"
+        "recipe": "extradelight:dynamic_feast/pork_stew_bowl_feast"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:pork_stew_bowl_feast"
+      "extradelight:dynamic_feast/pork_stew_bowl_feast"
     ]
   }
 }

@@ -5,6 +5,7 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
 
 public class ExtraDelightTags {
@@ -34,9 +35,9 @@ public class ExtraDelightTags {
 	public static final TagKey<Item> SALT = ItemTags.create(new ResourceLocation("salt", "can_be_salted"));
 
 	public static final TagKey<Block> MORTAR_BLOCK = BlockTags.create(new ResourceLocation("forge", "mortars"));
-	public static final TagKey<Item> MORTAR = ItemTags.create(new ResourceLocation("forge", "mortars"));
-	public static final TagKey<Item> PESTLES = ItemTags.create(new ResourceLocation("forge", "pestles"));
-	public static final TagKey<Item> SPOONS = ItemTags.create(new ResourceLocation("forge", "spoons"));
+	public static final TagKey<Item> MORTAR = forgeTag("mortars");
+	public static final TagKey<Item> PESTLES = forgeTag("pestles");
+	public static final TagKey<Item> SPOONS = forgeTag("spoons");
 	public static final TagKey<Item> TRAYS = ItemTags.create(new ResourceLocation("extradelight", "baking_trays"));
 	public static final TagKey<Item> OFFSET_SPATULAS = forgeTag("offset_spatula");
 
@@ -51,7 +52,7 @@ public class ExtraDelightTags {
 	public static final TagKey<Item> MEALS = modTag("meals");
 
 	public static final TagKey<Item> CONDIMENTS = forgeTag("condiments");
-	public static final TagKey<Item> MAYO = forgeTag("mayonnaise");
+	public static final TagKey<Item> MAYO = forgeTag("condiments/mayonnaise");
 
 	public static final TagKey<Item> FRUIT = forgeTag("fruit");
 	public static final TagKey<Item> FRUIT_APPLE = forgeTag("fruit/apple");
@@ -286,6 +287,8 @@ public class ExtraDelightTags {
 
 	public static final TagKey<Item> CANDY_BOWL_VALID = modTag("candy_bowl_valid");
 	public static final TagKey<Item> COOKIE_DOUGH = forgeTag("cookie_dough");
+	public static final TagKey<Item> GINGERBREAD_COOKIE_DOUGH = forgeTag("cookie_dough/gingerbread");
+	public static final TagKey<Item> SUGAR_COOKIE_DOUGH = forgeTag("cookie_dough/sugar");
 
 	public static final TagKey<Item> FROSTING = forgeTag("frosting");
 	public static final TagKey<Item> FROSTING_WHITE = forgeTag("frosting/white");
@@ -304,4 +307,11 @@ public class ExtraDelightTags {
 	public static final TagKey<Item> FROSTING_PURPLE = forgeTag("frosting/purple");
 	public static final TagKey<Item> FROSTING_MAGENTA = forgeTag("frosting/magenta");
 	public static final TagKey<Item> FROSTING_PINK = forgeTag("frosting/pink");
+
+	public static final TagKey<Item> DRIED_FRUIT = forgeTag("fruit/dried");
+
+	public static final TagKey<Item> CORN_KERNELS = forgeTag("seeds/corn");
+	public static final TagKey<Item> CORN_ON_COB = forgeTag("crops/corn");
+	public static final TagKey<Item> BOILED_EGG = forgeTag("eggs/boiled");
+	public static final TagKey<Item> WHIPPED_CREAM = forgeTag("whipped_cream");
 }

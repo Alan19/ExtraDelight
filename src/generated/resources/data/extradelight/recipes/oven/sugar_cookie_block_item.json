@@ -7,16 +7,16 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "extradelight:sugar_cookie_dough"
+      "tag": "forge:cookie_dough/sugar"
     },
     {
-      "item": "extradelight:sugar_cookie_dough"
+      "tag": "forge:cookie_dough/sugar"
     },
     {
-      "item": "extradelight:sugar_cookie_dough"
+      "tag": "forge:cookie_dough/sugar"
     },
     {
-      "item": "extradelight:sugar_cookie_dough"
+      "tag": "forge:cookie_dough/sugar"
     }
   ],
   "recipe_book_tab": "meals",

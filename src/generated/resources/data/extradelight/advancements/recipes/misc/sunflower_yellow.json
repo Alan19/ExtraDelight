@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:sunflower_yellow"
+        "recipe": "extradelight:dynamic_feast/sunflower_yellow"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

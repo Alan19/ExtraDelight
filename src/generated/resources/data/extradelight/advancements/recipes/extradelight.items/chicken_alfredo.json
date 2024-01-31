@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:chicken_alfredo"
+        "recipe": "extradelight:mixing/chicken_alfredo"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:chicken_alfredo"
+      "extradelight:mixing/chicken_alfredo"
     ]
   }
 }

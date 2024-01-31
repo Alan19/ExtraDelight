@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:agar_sheets"
+        "recipe": "extradelight:dynamic_feast/agar_sheets"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:agar_sheets"
+      "extradelight:dynamic_feast/agar_sheets"
     ]
   }
 }

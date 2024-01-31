@@ -66,11 +66,12 @@ public class ToolOnBlockBuilder implements RecipeBuilder {
 
 	@Override
 	public void save(Consumer<FinishedRecipe> pFinishedRecipeConsumer, ResourceLocation pRecipeId) {
+		ResourceLocation saveID = new ResourceLocation(pRecipeId.getNamespace(), "tool_on_block/" + pRecipeId.getPath());
 		this.ensureValid(pRecipeId);
 		this.advancement.parent(new ResourceLocation("recipes/root"))
-				.addCriterion("has_the_recipe", RecipeUnlockedTrigger.unlocked(pRecipeId))
-				.rewards(AdvancementRewards.Builder.recipe(pRecipeId)).requirements(RequirementsStrategy.OR);
-		pFinishedRecipeConsumer.accept(new ToolOnBlockBuilder.Result(pRecipeId,
+				.addCriterion("has_the_recipe", RecipeUnlockedTrigger.unlocked(saveID))
+				.rewards(AdvancementRewards.Builder.recipe(saveID)).requirements(RequirementsStrategy.OR);
+		pFinishedRecipeConsumer.accept(new ToolOnBlockBuilder.Result(saveID,
 				this.group == null ? "" : this.group, this.tool, this.in, this.out, this.advancement,
 				new ResourceLocation(pRecipeId.getNamespace(),
 						"recipes/" + this.in.getItemCategory().getRecipeFolderName() + "/" + pRecipeId.getPath()),

@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:lgray_tulip"
+        "recipe": "extradelight:dynamic_feast/lgray_tulip"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:pasta_meatballs"
+        "recipe": "extradelight:mixing/pasta_meatballs"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:pasta_meatballs"
+      "extradelight:mixing/pasta_meatballs"
     ]
   }
 }

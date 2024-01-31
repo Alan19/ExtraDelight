@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:cookie_dough_milkshake_ice_cream"
+        "recipe": "extradelight:mixing/cookie_dough_milkshake_ice_cream"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:cookie_dough_milkshake_ice_cream"
+      "extradelight:mixing/cookie_dough_milkshake_ice_cream"
     ]
   }
 }

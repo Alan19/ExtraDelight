@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:mortar/lime_dye"
+        "recipe": "extradelight:dynamic_feast/mortar/lime_dye"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

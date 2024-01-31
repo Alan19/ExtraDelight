@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:corn_husk"
+        "recipe": "extradelight:dynamic_feast/corn_husk"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:corn_husk"
+      "extradelight:dynamic_feast/corn_husk"
     ]
   }
 }

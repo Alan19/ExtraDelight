@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:mortar/brown_dye"
+        "recipe": "extradelight:dynamic_feast/mortar/brown_dye"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

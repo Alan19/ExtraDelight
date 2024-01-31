@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:pumpkin_milkshake"
+        "recipe": "extradelight:mixing/pumpkin_milkshake"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:pumpkin_milkshake"
+      "extradelight:mixing/pumpkin_milkshake"
     ]
   }
 }

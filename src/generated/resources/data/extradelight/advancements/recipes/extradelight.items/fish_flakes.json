@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:fish_flakes"
+        "recipe": "extradelight:dynamic_feast/fish_flakes"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:fish_flakes"
+      "extradelight:dynamic_feast/fish_flakes"
     ]
   }
 }

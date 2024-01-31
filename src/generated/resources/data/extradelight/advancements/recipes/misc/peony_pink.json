@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:peony_pink"
+        "recipe": "extradelight:dynamic_feast/peony_pink"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

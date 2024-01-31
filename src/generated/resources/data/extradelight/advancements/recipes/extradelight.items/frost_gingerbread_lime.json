@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "extradelight:frosting_lime"
-            ]
+            "tag": "forge:frosting/lime"
           }
         ]
       },
@@ -15,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:frost_gingerbread_lime"
+        "recipe": "extradelight:tool_on_block/frost_gingerbread_lime"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:frost_gingerbread_lime"
+      "extradelight:tool_on_block/frost_gingerbread_lime"
     ]
   }
 }

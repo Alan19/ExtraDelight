@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:mortar/bone_meal"
+        "recipe": "extradelight:dynamic_feast/mortar/bone_meal"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

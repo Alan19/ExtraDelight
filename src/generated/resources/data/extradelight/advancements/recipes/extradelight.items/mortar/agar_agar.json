@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:mortar/agar_agar"
+        "recipe": "extradelight:dynamic_feast/mortar/agar_agar"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

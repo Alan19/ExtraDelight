@@ -67,14 +67,16 @@ public class FeastRecipeBuilder implements RecipeBuilder {
 
 	@Override
 	public void save(Consumer<FinishedRecipe> pFinishedRecipeConsumer, ResourceLocation pRecipeId) {
-		this.ensureValid(pRecipeId);
+		ResourceLocation saveID = new ResourceLocation(pRecipeId.getNamespace(), "dynamic_feast/" + pRecipeId.getPath());
+		this.ensureValid(saveID);
 		this.advancement.parent(new ResourceLocation("recipes/root"))
-				.addCriterion("has_the_recipe", RecipeUnlockedTrigger.unlocked(pRecipeId))
-				.rewards(AdvancementRewards.Builder.recipe(pRecipeId)).requirements(RequirementsStrategy.OR);
-		pFinishedRecipeConsumer.accept(new FeastRecipeBuilder.Result(pRecipeId, this.group == null ? "" : this.group,
+				.addCriterion("has_the_recipe", RecipeUnlockedTrigger.unlocked(saveID))
+				.rewards(AdvancementRewards.Builder.recipe(saveID)).requirements(RequirementsStrategy.OR);
+		pFinishedRecipeConsumer.accept(new FeastRecipeBuilder.Result(saveID, this.group == null ? "" : this.group,
 				this.ingredient, this.result, this.block, this.advancement,
 				new ResourceLocation(pRecipeId.getNamespace(),
-						"recipes/" + this.result.getItemCategory().getRecipeFolderName() + "/" + pRecipeId.getPath()),
+						"recipes/" + result.getItemCategory().getRecipeFolderName() + "/"
+								 + pRecipeId.getPath()),
 				this.serializer));
 	}
 

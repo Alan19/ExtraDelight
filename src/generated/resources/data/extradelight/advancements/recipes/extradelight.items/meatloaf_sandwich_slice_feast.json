@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:meatloaf_sandwich_slice_feast"
+        "recipe": "extradelight:dynamic_feast/meatloaf_sandwich_slice_feast"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:meatloaf_sandwich_slice_feast"
+      "extradelight:dynamic_feast/meatloaf_sandwich_slice_feast"
     ]
   }
 }

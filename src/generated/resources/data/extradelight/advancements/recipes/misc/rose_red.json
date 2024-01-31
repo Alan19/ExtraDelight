@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:rose_red"
+        "recipe": "extradelight:dynamic_feast/rose_red"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

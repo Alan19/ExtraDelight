@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:mortar/corn_meal"
+        "recipe": "extradelight:dynamic_feast/mortar/corn_meal"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

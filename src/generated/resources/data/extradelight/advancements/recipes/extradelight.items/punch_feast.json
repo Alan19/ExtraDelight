@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:punch_feast"
+        "recipe": "extradelight:dynamic_feast/punch_feast"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:punch_feast"
+      "extradelight:dynamic_feast/punch_feast"
     ]
   }
 }

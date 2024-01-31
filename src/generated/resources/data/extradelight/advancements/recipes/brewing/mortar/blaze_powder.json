@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:mortar/blaze_powder"
+        "recipe": "extradelight:dynamic_feast/mortar/blaze_powder"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
