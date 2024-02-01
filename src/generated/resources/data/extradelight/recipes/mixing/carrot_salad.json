@@ -2,16 +2,16 @@
   "type": "extradelight:mixing_bowl",
   "ingredients": [
     {
-      "item": "extradelight:grated_carrot"
+      "tag": "forge:carrot/grated"
     },
     {
-      "item": "extradelight:grated_carrot"
+      "tag": "forge:carrot/grated"
     },
     {
-      "item": "extradelight:sliced_apple"
+      "tag": "extradelight:processed/apple"
     },
     {
-      "tag": "forge:mayonnaise"
+      "tag": "forge:condiments/mayonnaise"
     }
   ],
   "result": {

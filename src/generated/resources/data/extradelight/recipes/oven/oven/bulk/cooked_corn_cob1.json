@@ -7,7 +7,7 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "extradelight:corn_on_cob"
+      "tag": "forge:crops/corn"
     }
   ],
   "recipe_book_tab": "meals",

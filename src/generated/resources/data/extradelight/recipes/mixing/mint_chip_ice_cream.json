@@ -11,7 +11,7 @@
       "item": "minecraft:cocoa_beans"
     },
     {
-      "item": "extradelight:mint"
+      "tag": "forge:mint"
     },
     {
       "item": "minecraft:ice"

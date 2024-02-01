@@ -8,7 +8,7 @@
       "item": "extradelight:egg_mix"
     },
     {
-      "item": "extradelight:breadcrumbs"
+      "tag": "forge:bread/crumbs"
     },
     {
       "tag": "extradelight:frying_oil"

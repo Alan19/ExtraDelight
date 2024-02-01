@@ -3,7 +3,7 @@
   "cookingtime": 200,
   "experience": 1.0,
   "ingredient": {
-    "item": "extradelight:corn_on_cob"
+    "tag": "forge:crops/corn"
   },
   "result": "extradelight:grilled_corn_on_cob"
 }

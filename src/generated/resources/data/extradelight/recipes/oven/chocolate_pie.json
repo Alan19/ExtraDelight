@@ -10,7 +10,7 @@
       "item": "minecraft:cocoa_beans"
     },
     {
-      "item": "extradelight:whipped_cream"
+      "tag": "forge:whipped_cream"
     },
     {
       "item": "minecraft:cocoa_beans"
@@ -25,13 +25,13 @@
       "tag": "forge:flour"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "extradelight:sweetener"
     },
     {
       "item": "farmersdelight:pie_crust"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "extradelight:sweetener"
     }
   ],
   "recipe_book_tab": "meals",

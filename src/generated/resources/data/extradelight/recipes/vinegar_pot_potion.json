@@ -11,7 +11,7 @@
       "item": "minecraft:potion"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "extradelight:sweetener"
     },
     {
       "tag": "forge:fruit"

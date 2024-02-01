@@ -13,7 +13,7 @@
       "item": "extradelight:corn_silk"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "extradelight:sweetener"
     }
   ],
   "result": {

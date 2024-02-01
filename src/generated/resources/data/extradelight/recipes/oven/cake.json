@@ -28,10 +28,10 @@
       "item": "minecraft:egg"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "extradelight:sweetener"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "extradelight:sweetener"
     }
   ],
   "recipe_book_tab": "meals",

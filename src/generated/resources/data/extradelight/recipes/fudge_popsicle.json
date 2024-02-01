@@ -14,7 +14,7 @@
       "tag": "forge:milk"
     },
     "s": {
-      "item": "minecraft:sugar"
+      "tag": "extradelight:sweetener"
     }
   },
   "pattern": [

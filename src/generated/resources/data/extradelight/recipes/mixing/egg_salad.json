@@ -2,13 +2,13 @@
   "type": "extradelight:mixing_bowl",
   "ingredients": [
     {
-      "item": "extradelight:boiled_egg"
+      "tag": "forge:eggs/boiled"
     },
     {
-      "item": "extradelight:boiled_egg"
+      "tag": "forge:eggs/boiled"
     },
     {
-      "tag": "forge:mayonnaise"
+      "tag": "forge:condiments/mayonnaise"
     }
   ],
   "result": {

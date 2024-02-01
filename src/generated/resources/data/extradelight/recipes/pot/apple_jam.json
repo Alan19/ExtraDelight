@@ -16,7 +16,7 @@
       "item": "minecraft:apple"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "extradelight:sweetener"
     }
   ],
   "result": {

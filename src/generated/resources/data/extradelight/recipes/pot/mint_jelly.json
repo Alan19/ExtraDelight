@@ -7,16 +7,16 @@
   "experience": 0.35,
   "ingredients": [
     {
-      "item": "extradelight:mint"
+      "tag": "forge:mint"
     },
     {
-      "item": "extradelight:mint"
+      "tag": "forge:mint"
     },
     {
-      "item": "extradelight:mint"
+      "tag": "forge:mint"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "extradelight:sweetener"
     }
   ],
   "result": {

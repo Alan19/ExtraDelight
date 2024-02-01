@@ -4,13 +4,13 @@
   "experience": 0.35,
   "ingredients": [
     {
-      "item": "minecraft:sugar"
+      "tag": "extradelight:sweetener"
     },
     {
       "tag": "forge:dyes/blue"
     },
     {
-      "item": "extradelight:mint"
+      "tag": "forge:mint"
     }
   ],
   "result": {

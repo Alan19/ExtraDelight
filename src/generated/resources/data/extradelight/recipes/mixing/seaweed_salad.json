@@ -8,10 +8,10 @@
       "item": "minecraft:kelp"
     },
     {
-      "item": "extradelight:grated_carrot"
+      "tag": "forge:carrot/grated"
     },
     {
-      "item": "extradelight:vinegar"
+      "tag": "forge:vinegar"
     }
   ],
   "result": {

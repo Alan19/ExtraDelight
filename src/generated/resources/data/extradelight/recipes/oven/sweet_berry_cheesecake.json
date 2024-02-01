@@ -16,7 +16,7 @@
       "tag": "forge:fruit/sweet_berry"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "extradelight:sweetener"
     },
     {
       "tag": "forge:milk"

@@ -7,7 +7,7 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "extradelight:glow_berry_cookie_dough"
+      "tag": "forge:cookie_dough/glow_berry"
     }
   ],
   "recipe_book_tab": "meals",

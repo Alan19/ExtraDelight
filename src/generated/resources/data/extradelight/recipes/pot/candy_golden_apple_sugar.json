@@ -10,7 +10,7 @@
       "item": "minecraft:golden_apple"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "extradelight:sweetener"
     }
   ],
   "result": {

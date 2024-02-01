@@ -8,7 +8,7 @@
       "item": "minecraft:beetroot"
     },
     {
-      "item": "extradelight:mint"
+      "tag": "forge:mint"
     },
     {
       "tag": "extradelight:sweetener"

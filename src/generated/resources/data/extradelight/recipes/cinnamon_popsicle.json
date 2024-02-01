@@ -5,7 +5,7 @@
       "item": "minecraft:stick"
     },
     "c": {
-      "item": "extradelight:ground_cinnamon"
+      "tag": "forge:cinnamon/ground"
     },
     "i": {
       "item": "minecraft:ice"
@@ -14,7 +14,7 @@
       "tag": "forge:milk"
     },
     "s": {
-      "item": "minecraft:sugar"
+      "tag": "extradelight:sweetener"
     }
   },
   "pattern": [

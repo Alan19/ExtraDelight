@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "extradelight:cooked_cactus"
-            ]
+            "tag": "forge:cactus/cooked"
           }
         ]
       },

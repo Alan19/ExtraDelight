@@ -2,31 +2,31 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "extradelight:corn_meal"
+      "tag": "forge:corn/meal"
     },
     {
-      "item": "extradelight:corn_meal"
+      "tag": "forge:corn/meal"
     },
     {
-      "item": "extradelight:corn_meal"
+      "tag": "forge:corn/meal"
     },
     {
-      "item": "extradelight:corn_meal"
+      "tag": "forge:corn/meal"
     },
     {
-      "item": "extradelight:corn_meal"
+      "tag": "forge:corn/meal"
     },
     {
-      "item": "extradelight:corn_meal"
+      "tag": "forge:corn/meal"
     },
     {
-      "item": "extradelight:corn_meal"
+      "tag": "forge:corn/meal"
     },
     {
-      "item": "extradelight:corn_meal"
+      "tag": "forge:corn/meal"
     },
     {
-      "item": "extradelight:corn_meal"
+      "tag": "forge:corn/meal"
     }
   ],
   "result": {

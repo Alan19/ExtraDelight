@@ -11,7 +11,7 @@
       "item": "minecraft:water_bucket"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "extradelight:sweetener"
     },
     {
       "tag": "forge:fruit"

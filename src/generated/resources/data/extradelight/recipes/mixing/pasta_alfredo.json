@@ -2,7 +2,7 @@
   "type": "extradelight:mixing_bowl",
   "ingredients": [
     {
-      "item": "extradelight:alfredo_sauce"
+      "tag": "forge:alfredo_sauce"
     },
     {
       "item": "farmersdelight:raw_pasta"

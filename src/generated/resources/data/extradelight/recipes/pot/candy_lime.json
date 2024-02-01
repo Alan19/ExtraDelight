@@ -7,7 +7,7 @@
   "experience": 0.35,
   "ingredients": [
     {
-      "item": "minecraft:sugar"
+      "tag": "extradelight:sweetener"
     },
     {
       "tag": "forge:dyes/lime"

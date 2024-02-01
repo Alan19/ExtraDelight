@@ -7,7 +7,7 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "extradelight:dried_fruit"
+      "tag": "forge:fruit/dried"
     },
     {
       "tag": "forge:dough"

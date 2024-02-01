@@ -16,7 +16,7 @@
       "tag": "forge:crops/carrot"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "extradelight:sweetener"
     }
   ],
   "result": {

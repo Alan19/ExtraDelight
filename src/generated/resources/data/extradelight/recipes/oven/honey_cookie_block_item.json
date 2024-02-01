@@ -7,16 +7,16 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "extradelight:honey_cookie_dough"
+      "tag": "forge:cookie_dough/honey"
     },
     {
-      "item": "extradelight:honey_cookie_dough"
+      "tag": "forge:cookie_dough/honey"
     },
     {
-      "item": "extradelight:honey_cookie_dough"
+      "tag": "forge:cookie_dough/honey"
     },
     {
-      "item": "extradelight:honey_cookie_dough"
+      "tag": "forge:cookie_dough/honey"
     }
   ],
   "recipe_book_tab": "meals",

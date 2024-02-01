@@ -5,6 +5,7 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
 
@@ -314,4 +315,19 @@ public class ExtraDelightTags {
 	public static final TagKey<Item> CORN_ON_COB = forgeTag("crops/corn");
 	public static final TagKey<Item> BOILED_EGG = forgeTag("eggs/boiled");
 	public static final TagKey<Item> WHIPPED_CREAM = forgeTag("whipped_cream");
+	public static final TagKey<Item> FISH_FLAKES = forgeTag("fish_flakes");
+	public static final TagKey<Item> CROUTONS = forgeTag("croutons");
+	public static final TagKey<Item> ALFREDO_SAUCE = forgeTag("alfredo_sauce");
+	public static final TagKey<Item> COOKED_CACTUS = forgeTag("cactus/cooked");
+	public static final TagKey<Item> MINT = forgeTag("mint");
+	public static final TagKey<Item> GROUND_CINNAMON = forgeTag("cinnamon/ground");
+	public static final TagKey<Item> CHOCOLATE_CHIP_COOKIE_DOUGH = forgeTag("cookie_dough/chocolate_chip");
+	public static final TagKey<Item> GLOW_BERRY_COOKIE_DOUGH = forgeTag("cookie_dough/glow_berry");
+	public static final TagKey<Item> HONEY_COOKIE_DOUGH = forgeTag("cookie_dough/honey");
+	public static final TagKey<Item> PUMPKIN_COOKIE_DOUGH = forgeTag("cookie_dough/pumpkin");
+	public static final TagKey<Item> SWEET_BERRY_COOKIE_DOUGH = forgeTag("cookie_dough/sweet_berry");
+	public static final TagKey<Item> BREAD_CRUMBS = forgeTag("bread/crumbs");
+	public static final TagKey<Item> CORN_MEAL = forgeTag("corn/meal");
+	public static final TagKey<Item> POPCORN = forgeTag("popcorn");
+	public static final TagKey<Item> CINNAMON_STICK = forgeTag("cinnamon/stick");
 }

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "extradelight:popcorn"
+      "tag": "forge:popcorn"
     },
     {
       "item": "extradelight:caramel_sauce"

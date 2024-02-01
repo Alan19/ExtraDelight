@@ -19,10 +19,10 @@
       "item": "minecraft:mutton"
     },
     {
-      "item": "extradelight:mint"
+      "tag": "forge:mint"
     },
     {
-      "item": "extradelight:breadcrumbs"
+      "tag": "forge:bread/crumbs"
     },
     {
       "tag": "forge:cooking_oil"

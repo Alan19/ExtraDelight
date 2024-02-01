@@ -2,7 +2,7 @@
   "type": "extradelight:mortar",
   "grinds": 4,
   "ingredient": {
-    "item": "extradelight:corn_seeds"
+    "tag": "forge:seeds/corn"
   },
   "result": {
     "item": "extradelight:corn_meal"

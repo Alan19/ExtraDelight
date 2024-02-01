@@ -23,7 +23,7 @@
             "item": "extradelight:ketchup_jar_item"
           },
           {
-            "item": "extradelight:breadcrumbs"
+            "tag": "forge:bread/crumbs"
           },
           {
             "item": "extradelight:egg_mix"
@@ -66,7 +66,7 @@
             "item": "extradelight:ketchup_jar_item"
           },
           {
-            "item": "extradelight:breadcrumbs"
+            "tag": "forge:bread/crumbs"
           },
           {
             "item": "extradelight:egg_mix"

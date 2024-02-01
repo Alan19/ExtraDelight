@@ -7,7 +7,7 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "extradelight:ground_cinnamon"
+      "tag": "forge:cinnamon/ground"
     },
     {
       "tag": "forge:milk"

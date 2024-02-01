@@ -2,13 +2,13 @@
   "type": "extradelight:mixing_bowl",
   "ingredients": [
     {
-      "item": "extradelight:whipped_cream"
+      "tag": "forge:whipped_cream"
     },
     {
       "item": "extradelight:butter"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "extradelight:sweetener"
     },
     {
       "tag": "forge:dyes/light_blue"

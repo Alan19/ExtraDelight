@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "extradelight:dried_fruit"
-            ]
+            "tag": "forge:fruit/dried"
           }
         ]
       },

@@ -4,7 +4,7 @@
   "experience": 0.15,
   "ingredients": [
     {
-      "item": "farmersdelight:raw_pasta"
+      "tag": "forge:pasta/raw_pasta"
     }
   ],
   "result": {

@@ -2,7 +2,7 @@
   "type": "extradelight:mixing_bowl",
   "ingredients": [
     {
-      "item": "extradelight:whipped_cream"
+      "tag": "forge:whipped_cream"
     }
   ],
   "result": {

@@ -7,16 +7,16 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "extradelight:chocolate_chip_cookie_dough"
+      "tag": "forge:cookie_dough/chocolate_chip"
     },
     {
-      "item": "extradelight:chocolate_chip_cookie_dough"
+      "tag": "forge:cookie_dough/chocolate_chip"
     },
     {
-      "item": "extradelight:chocolate_chip_cookie_dough"
+      "tag": "forge:cookie_dough/chocolate_chip"
     },
     {
-      "item": "extradelight:chocolate_chip_cookie_dough"
+      "tag": "forge:cookie_dough/chocolate_chip"
     }
   ],
   "recipe_book_tab": "meals",

@@ -16,7 +16,7 @@
       "item": "minecraft:sweet_berries"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "extradelight:sweetener"
     }
   ],
   "result": {

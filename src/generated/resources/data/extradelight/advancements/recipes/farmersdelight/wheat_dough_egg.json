@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:egg"
-            ]
+            "tag": "forge:eggs"
           }
         ]
       },
@@ -15,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "extradelight:wheat_dough_egg"
+        "recipe": "extradelight:mixing/wheat_dough_egg"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "extradelight:wheat_dough_egg"
+      "extradelight:mixing/wheat_dough_egg"
     ]
   }
 }

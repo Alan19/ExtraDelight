@@ -7,16 +7,16 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "extradelight:pumpkin_cookie_dough"
+      "tag": "forge:cookie_dough/pumpkin"
     },
     {
-      "item": "extradelight:pumpkin_cookie_dough"
+      "tag": "forge:cookie_dough/pumpkin"
     },
     {
-      "item": "extradelight:pumpkin_cookie_dough"
+      "tag": "forge:cookie_dough/pumpkin"
     },
     {
-      "item": "extradelight:pumpkin_cookie_dough"
+      "tag": "forge:cookie_dough/pumpkin"
     }
   ],
   "recipe_book_tab": "meals",

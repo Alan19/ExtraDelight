@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "extradelight:breadcrumbs"
-            ]
+            "tag": "forge:bread/crumbs"
           }
         ]
       },

@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "extradelight:whipped_cream"
-            ]
+            "tag": "forge:whipped_cream"
           }
         ]
       },

@@ -8,10 +8,10 @@
       "item": "minecraft:kelp"
     },
     {
-      "item": "extradelight:fish_flakes"
+      "tag": "forge:fish_flakes"
     },
     {
-      "item": "extradelight:fish_flakes"
+      "tag": "forge:fish_flakes"
     }
   ],
   "result": {

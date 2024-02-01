@@ -2,7 +2,7 @@
   "type": "extradelight:mixing_bowl",
   "ingredients": [
     {
-      "item": "extradelight:cooked_cactus"
+      "tag": "forge:cactus/cooked"
     },
     {
       "tag": "extradelight:processed/tomato"
