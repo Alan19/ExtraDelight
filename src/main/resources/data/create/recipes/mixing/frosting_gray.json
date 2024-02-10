@@ -1,5 +1,5 @@
 {
-  "type": "extradelight:mixing_bowl",
+  "type": "create:mixing",
   "ingredients": [
     {
       "item": "extradelight:whipped_cream"
@@ -14,12 +14,11 @@
       "tag": "forge:dyes/gray"
     }
   ],
-  "result": {
-    "count": 4,
-    "item": "extradelight:frosting_gray"
-  },
-  "stirs": 2,
-  "usedItem": {
-    "item": "minecraft:air"
-  }
+  "results": 
+  [  
+	  {
+		"count": 4,
+		"item": "extradelight:frosting_gray"
+	  }
+  ] 
 }

@@ -1,15 +1,11 @@
 {
-  "type": "extradelight:mixing_bowl",
+  "type": "create:mixing",
   "ingredients": [
     {
       "item": "extradelight:whipped_cream"
     }
   ],
-  "result": {
+  "results": [ {
     "item": "extradelight:butter"
-  },
-  "stirs": 8,
-  "usedItem": {
-    "item": "minecraft:air"
-  }
+  } ] 
 }

@@ -1,5 +1,5 @@
 {
-  "type": "extradelight:mixing_bowl",
+  "type": "create:mixing",
   "ingredients": [
     {
       "item": "extradelight:cooked_cactus"
@@ -14,11 +14,8 @@
       "tag": "forge:cheese"
     }
   ],
-  "result": {
+  "results": [  {
+
     "item": "extradelight:cactus_salad"
-  },
-  "stirs": 2,
-  "usedItem": {
-    "item": "minecraft:bowl"
-  }
+  } ] 
 }

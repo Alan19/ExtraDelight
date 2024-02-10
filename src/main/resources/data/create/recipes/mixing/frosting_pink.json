@@ -1,5 +1,5 @@
 {
-  "type": "extradelight:mixing_bowl",
+  "type": "create:mixing",
   "ingredients": [
     {
       "item": "extradelight:whipped_cream"
@@ -14,12 +14,12 @@
       "tag": "forge:dyes/pink"
     }
   ],
-  "result": {
-    "count": 4,
-    "item": "extradelight:frosting_pink"
-  },
-  "stirs": 2,
-  "usedItem": {
-    "item": "minecraft:air"
-  }
+  "results": 
+  [
+	  {
+
+		"count": 4,
+		"item": "extradelight:frosting_pink"
+	  }
+  ] 
 }

@@ -101,7 +101,8 @@ public class EDBlockTags extends BlockTagsProvider {
 				ExtraDelightBlocks.STRIPPED_CINNAMON_LOG.get(), ExtraDelightBlocks.CINNAMON_PLANKS.get(),
 				ExtraDelightBlocks.CINNAMON_CABINET.get(), ExtraDelightBlocks.CINNAMON_DOOR.get(),
 				ExtraDelightBlocks.CINNAMON_FENCE.get(), ExtraDelightBlocks.CINNAMON_FENCE_GATE.get(),
-				ExtraDelightBlocks.CINNAMON_STAIRS.get(), ExtraDelightBlocks.CINNAMON_TRAPDOOR.get());
+				ExtraDelightBlocks.CINNAMON_STAIRS.get(), ExtraDelightBlocks.CINNAMON_TRAPDOOR.get(),
+				ExtraDelightBlocks.CINNAMON_SLAB.get());
 
 		tag(BlockTags.FENCES).add(ExtraDelightBlocks.CINNAMON_FENCE.get());
 		tag(BlockTags.FENCE_GATES).add(ExtraDelightBlocks.CINNAMON_FENCE_GATE.get());

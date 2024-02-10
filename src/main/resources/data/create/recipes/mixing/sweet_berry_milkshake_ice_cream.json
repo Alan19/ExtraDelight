@@ -1,5 +1,5 @@
 {
-  "type": "extradelight:mixing_bowl",
+  "type": "create:mixing",
   "ingredients": [
     {
       "tag": "forge:milk"
@@ -8,11 +8,7 @@
       "item": "extradelight:sweet_berry_ice_cream"
     }
   ],
-  "result": {
+  "results": [ {
     "item": "extradelight:sweet_berry_milkshake"
-  },
-  "stirs": 4,
-  "usedItem": {
-    "item": "minecraft:glass_bottle"
-  }
+  } ] 
 }

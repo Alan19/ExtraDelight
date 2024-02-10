@@ -1,5 +1,5 @@
 {
-  "type": "extradelight:mixing_bowl",
+  "type": "create:mixing",
   "ingredients": [
     {
       "item": "minecraft:beetroot"
@@ -20,12 +20,9 @@
       "tag": "forge:cooking_oil"
     }
   ],
-  "result": {
+  "results": [  {
+
     "count": 2,
     "item": "extradelight:beet_mint_salad"
-  },
-  "stirs": 4,
-  "usedItem": {
-    "item": "minecraft:bowl"
-  }
+  } ] 
 }

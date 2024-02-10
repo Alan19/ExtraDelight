@@ -1,5 +1,5 @@
 {
-  "type": "extradelight:mixing_bowl",
+  "type": "create:mixing",
   "ingredients": [
     {
       "item": "extradelight:alfredo_sauce"
@@ -11,11 +11,7 @@
       "tag": "forge:cooked_chicken"
     }
   ],
-  "result": {
+  "results": [ {
     "item": "extradelight:chicken_alfredo"
-  },
-  "stirs": 2,
-  "usedItem": {
-    "item": "minecraft:bowl"
-  }
+  } ] 
 }

@@ -1,5 +1,5 @@
 {
-  "type": "extradelight:mixing_bowl",
+  "type": "create:mixing",
   "ingredients": [
     {
       "tag": "forge:flour"
@@ -17,11 +17,7 @@
       "item": "farmersdelight:pumpkin_slice"
     }
   ],
-  "result": {
+  "results": [ {
     "item": "extradelight:pumpkin_cookie_dough"
-  },
-  "stirs": 4,
-  "usedItem": {
-    "item": "minecraft:air"
-  }
+  } ] 
 }

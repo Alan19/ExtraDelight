@@ -1,0 +1,32 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:brain"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "create:mixing", "heatRequirement": "heated",
+        "cookingtime": 200,
+      
+        "ingredients": [
+          {
+            "tag": "forge:brain"
+          },
+          {
+            "item": "extradelight:breading_misanplas"
+          }
+        ],
+        "results": [ {
+          "item": "extradelight:fried_brains"
+        }
+      }
+    }
+  ]
+}

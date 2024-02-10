@@ -1,5 +1,5 @@
 {
-  "type": "extradelight:mixing_bowl",
+  "type": "create:mixing",
   "ingredients": [
     {
       "tag": "forge:flour"
@@ -20,11 +20,7 @@
       "item": "extradelight:ground_cinnamon"
     }
   ],
-  "result": {
+  "results": [ {
     "item": "extradelight:gingerbread_cookie_dough"
-  },
-  "stirs": 4,
-  "usedItem": {
-    "item": "minecraft:air"
-  }
+  } ] 
 }

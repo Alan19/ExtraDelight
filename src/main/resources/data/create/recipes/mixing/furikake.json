@@ -1,5 +1,5 @@
 {
-  "type": "extradelight:mixing_bowl",
+  "type": "create:mixing",
   "ingredients": [
     {
       "item": "minecraft:kelp"
@@ -14,12 +14,9 @@
       "item": "extradelight:fish_flakes"
     }
   ],
-  "result": {
+  "results": [  {
+
     "count": 4,
     "item": "extradelight:furikake"
-  },
-  "stirs": 4,
-  "usedItem": {
-    "item": "minecraft:bowl"
-  }
+  } ] 
 }

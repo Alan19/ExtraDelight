@@ -1,5 +1,5 @@
 {
-  "type": "extradelight:mixing_bowl",
+  "type": "create:mixing",
   "ingredients": [
     {
       "tag": "forge:milk"
@@ -20,11 +20,7 @@
       "item": "minecraft:ice"
     }
   ],
-  "result": {
+  "results": [ {
     "item": "extradelight:pumpkin_ice_cream"
-  },
-  "stirs": 8,
-  "usedItem": {
-    "item": "minecraft:bowl"
-  }
+  } ] 
 }

@@ -1,5 +1,5 @@
 {
-  "type": "extradelight:mixing_bowl",
+  "type": "create:mixing",
   "ingredients": [
     {
       "item": "farmersdelight:tomato_sauce"
@@ -8,11 +8,7 @@
       "item": "farmersdelight:raw_pasta"
     }
   ],
-  "result": {
+  "results": [ {
     "item": "extradelight:pasta_tomato"
-  },
-  "stirs": 2,
-  "usedItem": {
-    "item": "minecraft:bowl"
-  }
+  } ] 
 }

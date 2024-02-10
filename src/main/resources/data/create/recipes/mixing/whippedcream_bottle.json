@@ -1,15 +1,14 @@
 {
-  "type": "extradelight:mixing_bowl",
+  "type": "create:mixing",
   "ingredients": [
     {
       "item": "farmersdelight:milk_bottle"
     }
   ],
-  "result": {
-    "item": "extradelight:whipped_cream"
-  },
-  "stirs": 8,
-  "usedItem": {
-    "item": "minecraft:bowl"
-  }
+  "results": 
+  [
+	  {
+		"item": "extradelight:whipped_cream"
+	  }
+  ] 
 }

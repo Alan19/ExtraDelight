@@ -1,5 +1,5 @@
 {
-  "type": "extradelight:mixing_bowl",
+  "type": "create:mixing",
   "ingredients": [
     {
       "item": "farmersdelight:cabbage"
@@ -29,11 +29,7 @@
       "tag": "extradelight:processed/vegetable"
     }
   ],
-  "result": {
+  "results": [ {
     "item": "extradelight:salad_block_item"
-  },
-  "stirs": 4,
-  "usedItem": {
-    "item": "minecraft:bowl"
-  }
+  } ] 
 }

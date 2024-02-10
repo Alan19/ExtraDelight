@@ -1,5 +1,5 @@
 {
-  "type": "extradelight:mixing_bowl",
+  "type": "create:mixing",
   "ingredients": [
     {
       "tag": "forge:flour"
@@ -17,11 +17,10 @@
       "item": "minecraft:sweet_berries"
     }
   ],
-  "result": {
-    "item": "extradelight:sweet_berry_cookie_dough"
-  },
-  "stirs": 4,
-  "usedItem": {
-    "item": "minecraft:air"
-  }
+  "results": 
+  [ 
+	  {
+		"item": "extradelight:sweet_berry_cookie_dough"
+	  } 
+  ] 
 }

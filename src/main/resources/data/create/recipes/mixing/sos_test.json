@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:stomach"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "create:mixing", "heatRequirement": "heated",
+        "container": {
+          "item": "extradelight:bread_slice"
+        },
+        "cookingtime": 200,
+      
+        "ingredients": [
+          {
+            "tag": "forge:beef/scrap"
+          },
+          {
+            "tag": "forge:flour"
+          },
+          {
+            "tag": "forge:milk"
+          }
+        ],
+        "results": [ {
+          "item": "extradelight:sos"
+        }
+      }
+    }
+  ]
+}

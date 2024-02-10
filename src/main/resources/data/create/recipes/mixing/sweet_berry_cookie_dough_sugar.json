@@ -1,5 +1,5 @@
 {
-  "type": "extradelight:mixing_bowl",
+  "type": "create:mixing",
   "ingredients": [
     {
       "item": "extradelight:sugar_cookie_dough"
@@ -8,11 +8,7 @@
       "item": "minecraft:sweet_berries"
     }
   ],
-  "result": {
+  "results": [ {
     "item": "extradelight:sweet_berry_cookie_dough"
-  },
-  "stirs": 4,
-  "usedItem": {
-    "item": "minecraft:air"
-  }
+  } ] 
 }

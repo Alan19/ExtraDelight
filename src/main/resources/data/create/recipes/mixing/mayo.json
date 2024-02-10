@@ -1,5 +1,5 @@
 {
-  "type": "extradelight:mixing_bowl",
+  "type": "create:mixing",
   "ingredients": [
     {
       "tag": "forge:eggs"
@@ -14,11 +14,7 @@
       "tag": "forge:vinegar"
     }
   ],
-  "result": {
+  "results": [ {
     "item": "extradelight:mayo_jar_item"
-  },
-  "stirs": 8,
-  "usedItem": {
-    "item": "minecraft:glass_bottle"
-  }
+  } ] 
 }
