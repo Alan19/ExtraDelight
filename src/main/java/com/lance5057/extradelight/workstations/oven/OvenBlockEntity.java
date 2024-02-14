@@ -328,7 +328,7 @@ public class OvenBlockEntity extends SyncedBlockEntity
             return false;
         }
 
-        inventory.getStackInSlot(CONTAINER_SLOT).hurt(1, this.level.random, null);
+        inventory.getStackInSlot(CONTAINER_SLOT).hurtAndBreak(1, null, null);
         cookTime = 0;
         mealContainerStack = recipe.getOutputContainer();
         ItemStack resultStack = recipe.getResultItem();
