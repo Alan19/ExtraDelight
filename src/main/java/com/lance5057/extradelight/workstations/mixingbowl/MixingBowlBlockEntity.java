@@ -307,10 +307,11 @@ public class MixingBowlBlockEntity extends BlockEntity {
 				h.setCount(h.getCount() - 1);
 			}
 
-			if (inv.getStackInSlot(32).isEmpty())
+			if (inv.getStackInSlot(32).isEmpty()) {
 				this.containerItem = ItemStack.EMPTY;
 
-			complete = false;
+				complete = false;
+			}
 		});
 
 		return InteractionResult.SUCCESS;

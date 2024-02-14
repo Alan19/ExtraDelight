@@ -9,10 +9,12 @@
       "item": "minecraft:egg"
     },
     {
-      "liquid": "create:honey"
+      "fluidTag": "create:honey",
+      "amount": 250
     },
     {
-      "liquid": "minecraft:milk"
+      "fluidTag": "forge:milk",
+      "amount": 250
     }
   ],
   "results": [
