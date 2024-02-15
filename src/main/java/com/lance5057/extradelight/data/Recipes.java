@@ -17,6 +17,10 @@ import com.lance5057.extradelight.data.recipebuilders.MortarRecipeBuilder;
 import com.lance5057.extradelight.data.recipebuilders.OvenRecipeBuilder;
 import com.lance5057.extradelight.data.recipebuilders.ToolOnBlockBuilder;
 import com.lance5057.extradelight.workstations.oven.recipetab.OvenRecipeBookTab;
+import com.simibubi.create.AllRecipeTypes;
+import com.simibubi.create.Create;
+import com.simibubi.create.content.kinetics.mixer.MixingRecipe;
+import com.simibubi.create.content.processing.recipe.ProcessingRecipeBuilder;
 
 import net.minecraft.advancements.critereon.InventoryChangeTrigger;
 import net.minecraft.data.DataGenerator;
@@ -64,6 +68,10 @@ public class Recipes extends RecipeProvider implements IConditionBuilder {
 
 	public static ResourceLocation EDLoc(String texture) {
 		return new ResourceLocation(ExtraDelight.MOD_ID, texture);
+	}
+
+	public static ResourceLocation CreateLoc(String texture) {
+		return new ResourceLocation(Create.ID, texture);
 	}
 
 	@Override
@@ -1726,11 +1734,16 @@ public class Recipes extends RecipeProvider implements IConditionBuilder {
 	}
 
 	private void potRecipes(Consumer<FinishedRecipe> consumer) {
-		CookingPotRecipeBuilder
-				.cookingPotRecipe(ExtraDelightItems.CHOCOLATE_CUSTARD.get(), 1, CookingRecipes.NORMAL_COOKING, 1.0F,
-						Items.GLASS_BOTTLE)
-				.addIngredient(Items.COCOA_BEANS).addIngredient(ForgeTags.MILK).addIngredient(ForgeTags.EGGS)
-				.addIngredient(ExtraDelightTags.SWEETENER).build(consumer, EDLoc("pot/" + "chocolate_custard"));
+//		CookingPotRecipeBuilder
+//				.cookingPotRecipe(ExtraDelightItems.CHOCOLATE_CUSTARD.get(), 1, CookingRecipes.NORMAL_COOKING, 1.0F,
+//						Items.GLASS_BOTTLE)
+//				.addIngredient(Items.COCOA_BEANS).addIngredient(ForgeTags.MILK).addIngredient(ForgeTags.EGGS)
+//				.addIngredient(ExtraDelightTags.SWEETENER).build(consumer, EDLoc("pot/" + "chocolate_custard"));
+
+		pot(ExtraDelightItems.CHOCOLATE_CUSTARD.get(), 1, new Ingredient[] { Ingredient.of(Items.COCOA_BEANS), Ingredient.of(ForgeTags.MILK),
+				Ingredient.of(ForgeTags.EGGS), Ingredient.of(ExtraDelightTags.SWEETENER) },
+				Items.GLASS_BOTTLE, "chocolate_custard",
+				consumer);
 
 		CookingPotRecipeBuilder
 				.cookingPotRecipe(ExtraDelightItems.PUMPKIN_CUSTARD.get(), 1, CookingRecipes.NORMAL_COOKING, 1.0F,
@@ -3516,4 +3529,21 @@ public class Recipes extends RecipeProvider implements IConditionBuilder {
 					.build(consumer, "extradelight:oven/bulk/" + name + i);
 	}
 
+	private void pot(ItemLike output, int count, Ingredient[] itemsIn, ItemLike container, String rc,
+			Consumer<FinishedRecipe> consumer) {
+		CookingPotRecipeBuilder b = CookingPotRecipeBuilder.cookingPotRecipe(output, count,
+				CookingRecipes.NORMAL_COOKING, 1.0F, container);
+		for (Ingredient i : itemsIn)
+			b.addIngredient(i);
+		b.build(consumer, EDLoc(rc));
+
+		ProcessingRecipeBuilder<MixingRecipe> p = new ProcessingRecipeBuilder<MixingRecipe>(
+				AllRecipeTypes.MIXING.getSerializer(), CreateLoc("mixing/" + rc + "_create"));
+
+		p.output(output, count);
+		for (Ingredient i : itemsIn)
+			p.require(i);
+
+		p.build();
+	}
 }

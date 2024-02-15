@@ -11,7 +11,8 @@
       "item": "extradelight:mint"
     },
     {
-      "item": "minecraft:sugar"
+      "fluidTag": "forge:honey",
+        "amount": 250
     },
     {
       "tag": "forge:vinegar"

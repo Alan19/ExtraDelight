@@ -4,17 +4,21 @@
 
   "ingredients": [
     {
+      "tag": "extradelight:processed/apple"
+    },
+    {
       "fluidTag": "forge:milk",
       "amount": 250
     },
     {
-      "tag": "forge:cheese"
+      "tag": "forge:eggs"
     },
     {
-      "tag": "forge:butter"
+      "fluidTag": "forge:honey",
+      "amount": 250
     }
   ],
   "results": [ {
-    "item": "extradelight:alfredo_sauce"
+    "item": "extradelight:apple_custard"
   }
  ] }

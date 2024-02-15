@@ -10,7 +10,8 @@
       "tag": "forge:flour"
     },
     {
-      "item": "minecraft:sugar"
+		"fluidTag": "forge:honey",
+		"amount": 250
     },
     {
       "item": "extradelight:egg_mix"

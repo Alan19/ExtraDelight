@@ -13,10 +13,12 @@
       "item": "minecraft:apple"
     },
     {
-      "item": "minecraft:sugar"
+      "fluidTag": "forge:honey",
+        "amount": 250
     }
   ],
   "results": [ {
-    "item": "extradelight:apple_jam"
+    "count": 4,
+    "item": "extradelight:apple_sauce"
   }
  ] }

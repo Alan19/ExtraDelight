@@ -5,7 +5,8 @@
       "tag": "forge:flour"
     },
     {
-      "item": "minecraft:sugar"
+      "fluidTag": "forge:honey",
+      "amount": 250
     },
     {
       "tag": "forge:butter"

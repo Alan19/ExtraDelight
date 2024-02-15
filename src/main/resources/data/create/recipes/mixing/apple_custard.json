@@ -7,13 +7,14 @@
       "tag": "extradelight:processed/apple"
     },
     {
-      "tag": "forge:milk"
+      "fluidTag": "forge:milk",
+      "amount": 250
     },
     {
       "tag": "forge:eggs"
     },
     {
-      "tag": "extradelight:sweetener"
+      "item": "minecraft:sugar"
     }
   ],
   "results": [ {

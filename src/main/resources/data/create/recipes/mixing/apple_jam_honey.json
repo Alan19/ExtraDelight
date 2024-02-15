@@ -13,7 +13,8 @@
       "item": "minecraft:apple"
     },
     {
-      "item": "minecraft:sugar"
+      "fluidTag": "forge:honey",
+        "amount": 250
     }
   ],
   "results": [ {

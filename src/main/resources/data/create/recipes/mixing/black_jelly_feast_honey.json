@@ -10,7 +10,8 @@
       "tag": "forge:gelatin"
     },
     {
-      "item": "minecraft:sugar"
+      "fluidTag": "forge:honey",
+        "amount": 250
     },
     {
       "item": "minecraft:sweet_berries"

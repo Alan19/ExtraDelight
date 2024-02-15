@@ -5,7 +5,8 @@
       "tag": "forge:milk"
     },
     {
-      "item": "minecraft:sugar"
+		"fluidTag": "forge:honey",
+		"amount": 250
     },
     {
       "tag": "extradelight:processed/apple"

@@ -2,7 +2,8 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "tag": "forge:milk"
+      "fluidTag": "forge:milk",
+        "amount": 250
     },
     {
       "item": "extradelight:apple_ice_cream"

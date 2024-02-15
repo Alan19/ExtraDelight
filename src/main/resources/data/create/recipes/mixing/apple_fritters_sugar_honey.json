@@ -10,7 +10,7 @@
       "tag": "forge:flour"
     },
     {
-      "item": "minecraft:sugar"
+		"item": "minecraft:sugar"
     },
     {
       "item": "extradelight:egg_mix"
@@ -19,7 +19,8 @@
       "tag": "extradelight:frying_oil"
     },
     {
-      "item": "minecraft:sugar"
+      "fluidTag": "forge:honey",
+		"amount": 250
     }
   ],
   "results": [ {
