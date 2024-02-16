@@ -1,10 +1,5 @@
 {
-  "type": "farmersdelight:cooking",
-  "container": {
-    "item": "minecraft:glass_bottle"
-  },
-  "cookingtime": 200,
-  "experience": 1.0,
+  "type": "create:mixing",
   "ingredients": [
     {
       "item": "minecraft:cocoa_beans"
@@ -19,7 +14,9 @@
       "tag": "extradelight:sweetener"
     }
   ],
-  "result": {
-    "item": "extradelight:chocolate_custard"
-  }
+  "results": [
+    {
+      "item": "extradelight:chocolate_custard"
+    }
+  ]
 }

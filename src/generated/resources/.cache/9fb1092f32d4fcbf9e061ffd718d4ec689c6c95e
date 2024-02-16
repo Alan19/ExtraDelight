@@ -1,4 +1,5 @@
-// 1.19.2	2024-01-31T17:44:49.8002652	Recipes
+// 1.19.2	2024-02-16T10:33:37.165331	Recipes
+ed77418ffe3b3cb4e20f521bbc14640a8e955572 data/create/recipes/mixing/chocolate_custard_create.json
 40b5a7470e4ac6116207bd8c0af2050bef35dcc6 data/extradelight/advancements/recipes/brewing/mortar/blaze_powder.json
 f88940f17953b3363fa2638e0f9f4f0e828d0b53 data/extradelight/advancements/recipes/building_blocks/sponge.json
 d608dceb3a9e24cfd1be268784253a73205863e8 data/extradelight/advancements/recipes/decorations/acacia_dried_corn_fence_back.json
@@ -1230,6 +1231,7 @@ f1734e2c36468de22d7afb0a3485a6a849ef205a data/extradelight/recipes/cheese_block.
 778230a91a5daf42ee3b2d60b22bccbfd09ef3cb data/extradelight/recipes/cheese_block_to_item.json
 7fa4e41ef9187c959bb038bc696fdb7eead3f2a7 data/extradelight/recipes/cheese_sandwich.json
 d35614d24b1b464d1b35b772bcedb9e29c791ddc data/extradelight/recipes/chocolate_cheesecake_slice.json
+53a305c75587f166952a684150b08579f8422c89 data/extradelight/recipes/chocolate_custard.json
 6052f04e413c49f6d40467dc823e904ad277d39a data/extradelight/recipes/chocolate_milk.json
 136e82e79afc2a715eda079b58a43f1181f7a15e data/extradelight/recipes/chocolate_milk_bucket.json
 ce050dc7a0ccac3906ae3a40ebb10f669f46ef0c data/extradelight/recipes/cinnamon_cabinet.json
@@ -2177,7 +2179,6 @@ ae5d928b0e73e766e71cff5b1c2a721234e8193a data/extradelight/recipes/pot/candy_yel
 27bf03c5cfadf62384f8f912eb0e0cd82c38610c data/extradelight/recipes/pot/chicken_fried_steak.json
 1fd9034e0fe5961e7b7d65aef1c0b2abd946fb62 data/extradelight/recipes/pot/chicken_stew.json
 b4b0a712f4ca12b16a97bc5f700fc815634e5e41 data/extradelight/recipes/pot/chips.json
-53a305c75587f166952a684150b08579f8422c89 data/extradelight/recipes/pot/chocolate_custard.json
 e38fd73c8bf476e327a037cc4e65c94b355d810d data/extradelight/recipes/pot/congee.json
 12b28f491205830b77fab93338933e52d53c7c03 data/extradelight/recipes/pot/cooked_pasta.json
 7459cff2e31b63f69eb4a437065cd1c8382f0606 data/extradelight/recipes/pot/corn.json
