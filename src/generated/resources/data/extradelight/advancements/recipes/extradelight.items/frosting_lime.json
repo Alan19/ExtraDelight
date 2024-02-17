@@ -1,11 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "Recipes": {
+    "frosting_lime": {
       "conditions": {
         "items": [
           {
-            "tag": "forge:whipped_cream"
+            "items": [
+              "extradelight:frosting_lime"
+            ]
           }
         ]
       },
@@ -20,7 +22,7 @@
   },
   "requirements": [
     [
-      "Recipes",
+      "frosting_lime",
       "has_the_recipe"
     ]
   ],

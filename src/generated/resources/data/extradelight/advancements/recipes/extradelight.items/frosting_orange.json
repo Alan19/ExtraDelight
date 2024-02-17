@@ -1,11 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "Recipes": {
+    "frosting_orange": {
       "conditions": {
         "items": [
           {
-            "tag": "forge:whipped_cream"
+            "items": [
+              "extradelight:frosting_orange"
+            ]
           }
         ]
       },
@@ -20,7 +22,7 @@
   },
   "requirements": [
     [
-      "Recipes",
+      "frosting_orange",
       "has_the_recipe"
     ]
   ],

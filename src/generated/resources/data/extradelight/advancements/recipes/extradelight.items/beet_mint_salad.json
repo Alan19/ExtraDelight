@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "Recipes": {
+    "beet_mint_salad": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:beetroot"
+              "extradelight:beet_mint_salad"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "Recipes",
+      "beet_mint_salad",
       "has_the_recipe"
     ]
   ],

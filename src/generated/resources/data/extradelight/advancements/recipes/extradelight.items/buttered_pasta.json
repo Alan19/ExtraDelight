@@ -1,11 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "Recipes": {
+    "buttered_pasta": {
       "conditions": {
         "items": [
           {
-            "tag": "forge:butter"
+            "items": [
+              "extradelight:buttered_pasta"
+            ]
           }
         ]
       },
@@ -20,7 +22,7 @@
   },
   "requirements": [
     [
-      "Recipes",
+      "buttered_pasta",
       "has_the_recipe"
     ]
   ],

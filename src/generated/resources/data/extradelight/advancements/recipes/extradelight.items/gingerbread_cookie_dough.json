@@ -1,11 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "Recipes": {
+    "gingerbread_cookie_dough": {
       "conditions": {
         "items": [
           {
-            "tag": "forge:flour"
+            "items": [
+              "extradelight:gingerbread_cookie_dough"
+            ]
           }
         ]
       },
@@ -20,7 +22,7 @@
   },
   "requirements": [
     [
-      "Recipes",
+      "gingerbread_cookie_dough",
       "has_the_recipe"
     ]
   ],

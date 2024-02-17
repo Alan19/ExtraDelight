@@ -1,11 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "Recipes": {
+    "frosting_light_blue": {
       "conditions": {
         "items": [
           {
-            "tag": "forge:whipped_cream"
+            "items": [
+              "extradelight:frosting_light_blue"
+            ]
           }
         ]
       },
@@ -20,7 +22,7 @@
   },
   "requirements": [
     [
-      "Recipes",
+      "frosting_light_blue",
       "has_the_recipe"
     ]
   ],

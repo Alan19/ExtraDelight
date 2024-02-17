@@ -1,26 +1,28 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "Recipes": {
-      "conditions": {
-        "items": [
-          {
-            "tag": "forge:milk"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "extradelight:mixing/pumpkin_milkshake"
       },
       "trigger": "minecraft:recipe_unlocked"
+    },
+    "pumpkin_milkshake": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:pumpkin_milkshake"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "requirements": [
     [
-      "Recipes",
+      "pumpkin_milkshake",
       "has_the_recipe"
     ]
   ],

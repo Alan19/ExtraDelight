@@ -1,11 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "Recipes": {
+    "chicken_alfredo": {
       "conditions": {
         "items": [
           {
-            "tag": "forge:alfredo_sauce"
+            "items": [
+              "extradelight:chicken_alfredo"
+            ]
           }
         ]
       },
@@ -20,7 +22,7 @@
   },
   "requirements": [
     [
-      "Recipes",
+      "chicken_alfredo",
       "has_the_recipe"
     ]
   ],

@@ -1,11 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "Recipes": {
+    "cactus_salad": {
       "conditions": {
         "items": [
           {
-            "tag": "forge:butter"
+            "items": [
+              "extradelight:cactus_salad"
+            ]
           }
         ]
       },
@@ -20,7 +22,7 @@
   },
   "requirements": [
     [
-      "Recipes",
+      "cactus_salad",
       "has_the_recipe"
     ]
   ],

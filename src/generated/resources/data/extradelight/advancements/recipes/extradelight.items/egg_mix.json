@@ -1,11 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "Recipes": {
+    "egg_mix": {
       "conditions": {
         "items": [
           {
-            "tag": "forge:eggs"
+            "items": [
+              "extradelight:egg_mix"
+            ]
           }
         ]
       },
@@ -20,7 +22,7 @@
   },
   "requirements": [
     [
-      "Recipes",
+      "egg_mix",
       "has_the_recipe"
     ]
   ],

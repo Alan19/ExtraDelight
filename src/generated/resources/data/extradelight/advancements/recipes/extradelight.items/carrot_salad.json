@@ -1,11 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "Recipes": {
+    "carrot_salad": {
       "conditions": {
         "items": [
           {
-            "tag": "forge:carrot/grated"
+            "items": [
+              "extradelight:carrot_salad"
+            ]
           }
         ]
       },
@@ -20,7 +22,7 @@
   },
   "requirements": [
     [
-      "Recipes",
+      "carrot_salad",
       "has_the_recipe"
     ]
   ],

@@ -1,11 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "Recipes": {
+    "butter": {
       "conditions": {
         "items": [
           {
-            "tag": "forge:whipped_cream"
+            "items": [
+              "extradelight:butter"
+            ]
           }
         ]
       },
@@ -20,7 +22,7 @@
   },
   "requirements": [
     [
-      "Recipes",
+      "butter",
       "has_the_recipe"
     ]
   ],

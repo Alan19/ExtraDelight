@@ -1,26 +1,28 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "Recipes": {
-      "conditions": {
-        "items": [
-          {
-            "tag": "forge:eggs"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "extradelight:mixing/wheat_dough_egg"
       },
       "trigger": "minecraft:recipe_unlocked"
+    },
+    "wheat_dough_egg": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:wheat_dough"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "requirements": [
     [
-      "Recipes",
+      "wheat_dough_egg",
       "has_the_recipe"
     ]
   ],

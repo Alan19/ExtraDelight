@@ -1,26 +1,28 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "Recipes": {
-      "conditions": {
-        "items": [
-          {
-            "tag": "forge:milk"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "extradelight:mixing/sweet_berry_ice_cream"
       },
       "trigger": "minecraft:recipe_unlocked"
+    },
+    "sweet_berry_ice_cream": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:sweet_berry_ice_cream"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "requirements": [
     [
-      "Recipes",
+      "sweet_berry_ice_cream",
       "has_the_recipe"
     ]
   ],

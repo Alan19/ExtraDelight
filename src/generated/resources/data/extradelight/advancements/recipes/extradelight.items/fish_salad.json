@@ -1,11 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "Recipes": {
+    "fish_salad": {
       "conditions": {
         "items": [
           {
-            "tag": "forge:eggs/boiled"
+            "items": [
+              "extradelight:fish_salad"
+            ]
           }
         ]
       },
@@ -20,7 +22,7 @@
   },
   "requirements": [
     [
-      "Recipes",
+      "fish_salad",
       "has_the_recipe"
     ]
   ],

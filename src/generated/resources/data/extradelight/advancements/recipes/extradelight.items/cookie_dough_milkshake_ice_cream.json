@@ -1,11 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "Recipes": {
+    "cookie_dough_milkshake_ice_cream": {
       "conditions": {
         "items": [
           {
-            "tag": "forge:milk"
+            "items": [
+              "extradelight:cookie_dough_milkshake"
+            ]
           }
         ]
       },
@@ -20,7 +22,7 @@
   },
   "requirements": [
     [
-      "Recipes",
+      "cookie_dough_milkshake_ice_cream",
       "has_the_recipe"
     ]
   ],

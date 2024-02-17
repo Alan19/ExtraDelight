@@ -1,11 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "Recipes": {
+    "apple_milkshake": {
       "conditions": {
         "items": [
           {
-            "tag": "forge:milk"
+            "items": [
+              "extradelight:apple_milkshake"
+            ]
           }
         ]
       },
@@ -20,7 +22,7 @@
   },
   "requirements": [
     [
-      "Recipes",
+      "apple_milkshake",
       "has_the_recipe"
     ]
   ],

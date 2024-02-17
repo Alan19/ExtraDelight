@@ -1,28 +1,28 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "Recipes": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:kelp"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "extradelight:mixing/seaweed_salad"
       },
       "trigger": "minecraft:recipe_unlocked"
+    },
+    "seaweed_salad": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:seaweed_salad"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "requirements": [
     [
-      "Recipes",
+      "seaweed_salad",
       "has_the_recipe"
     ]
   ],

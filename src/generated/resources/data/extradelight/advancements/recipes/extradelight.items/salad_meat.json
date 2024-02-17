@@ -1,26 +1,28 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "Recipes": {
-      "conditions": {
-        "items": [
-          {
-            "tag": "forge:crops/cabbage"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "extradelight:mixing/salad_meat"
       },
       "trigger": "minecraft:recipe_unlocked"
+    },
+    "salad_meat": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extradelight:salad_block_item"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "requirements": [
     [
-      "Recipes",
+      "salad_meat",
       "has_the_recipe"
     ]
   ],

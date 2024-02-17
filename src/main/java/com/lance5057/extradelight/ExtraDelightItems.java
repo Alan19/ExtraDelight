@@ -33,6 +33,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tiers;
 import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -837,11 +838,23 @@ public class ExtraDelightItems {
 	public static final RegistryObject<Item> CORN_HUSK = ITEMS.register("corn_husk",
 			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
 	public static final RegistryObject<Item> DRIED_CORN_HUSK = ITEMS.register("dried_corn_husk",
-			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB)) {
+				public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+					return 100;
+				}
+			});
 	public static final RegistryObject<Item> CORN_SILK = ITEMS.register("corn_silk",
-			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB)) {
+				public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+					return 100;
+				}
+			});
 	public static final RegistryObject<Item> CORN_COB = ITEMS.register("corn_cob",
-			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB)) {
+				public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+					return 200;
+				}
+			});
 	public static final RegistryObject<Item> CORN_MEAL = ITEMS.register("corn_meal",
 			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB).food(EDFoods.FLOUR)));
 
@@ -949,42 +962,94 @@ public class ExtraDelightItems {
 
 	// Winter start!
 	public static final RegistryObject<BlockItem> CINNAMON_LOG = ITEMS.register("cinnamon_log",
-			() -> new BlockItem(ExtraDelightBlocks.CINNAMON_LOG.get(), new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+			() -> new BlockItem(ExtraDelightBlocks.CINNAMON_LOG.get(), new Item.Properties().tab(EXTRA_DELIGHT_TAB)) {
+				public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+					return 300;
+				}
+			});
 	public static final RegistryObject<BlockItem> STRIPPED_CINNAMON_LOG = ITEMS.register("stripped_cinnamon_log",
 			() -> new BlockItem(ExtraDelightBlocks.STRIPPED_CINNAMON_LOG.get(),
-					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+					new Item.Properties().tab(EXTRA_DELIGHT_TAB)) {
+				public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+					return 300;
+				}
+			});
 	public static final RegistryObject<BlockItem> CINNAMON_PLANKS = ITEMS.register("cinnamon_planks",
 			() -> new BlockItem(ExtraDelightBlocks.CINNAMON_PLANKS.get(),
-					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+					new Item.Properties().tab(EXTRA_DELIGHT_TAB)) {
+				public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+					return 300;
+				}
+			});
 	public static final RegistryObject<BlockItem> CINNAMON_LEAVES = ITEMS.register("cinnamon_leaves",
 			() -> new BlockItem(ExtraDelightBlocks.CINNAMON_LEAVES.get(),
 					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
 	public static final RegistryObject<BlockItem> CINNAMON_FENCE = ITEMS.register("cinnamon_fence",
-			() -> new BlockItem(ExtraDelightBlocks.CINNAMON_FENCE.get(), new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+			() -> new BlockItem(ExtraDelightBlocks.CINNAMON_FENCE.get(), new Item.Properties().tab(EXTRA_DELIGHT_TAB)) {
+				public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+					return 300;
+				}
+			});
 	public static final RegistryObject<BlockItem> CINNAMON_FENCE_GATE = ITEMS.register("cinnamon_fence_gate",
 			() -> new BlockItem(ExtraDelightBlocks.CINNAMON_FENCE_GATE.get(),
-					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+					new Item.Properties().tab(EXTRA_DELIGHT_TAB)) {
+				public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+					return 300;
+				}
+			});
 	public static final RegistryObject<BlockItem> CINNAMON_STAIRS = ITEMS.register("cinnamon_stairs",
 			() -> new BlockItem(ExtraDelightBlocks.CINNAMON_STAIRS.get(),
-					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+					new Item.Properties().tab(EXTRA_DELIGHT_TAB)) {
+				public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+					return 300;
+				}
+			});
 	public static final RegistryObject<DoubleHighBlockItem> CINNAMON_DOOR = ITEMS.register("cinnamon_door",
 			() -> new DoubleHighBlockItem(ExtraDelightBlocks.CINNAMON_DOOR.get(),
-					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+					new Item.Properties().tab(EXTRA_DELIGHT_TAB)) {
+				public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+					return 200;
+				}
+			});
 	public static final RegistryObject<BlockItem> CINNAMON_TRAPDOOR = ITEMS.register("cinnamon_trapdoor",
 			() -> new BlockItem(ExtraDelightBlocks.CINNAMON_TRAPDOOR.get(),
-					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+					new Item.Properties().tab(EXTRA_DELIGHT_TAB)) {
+				public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+					return 300;
+				}
+			});
 	public static final RegistryObject<BlockItem> CINNAMON_CABINET = ITEMS.register("cinnamon_cabinet",
 			() -> new BlockItem(ExtraDelightBlocks.CINNAMON_CABINET.get(),
-					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+					new Item.Properties().tab(EXTRA_DELIGHT_TAB)) {
+				public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+					return 300;
+				}
+			});
 	public static final RegistryObject<BlockItem> CINNAMON_SLAB = ITEMS.register("cinnamon_slab",
-			() -> new BlockItem(ExtraDelightBlocks.CINNAMON_SLAB.get(), new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+			() -> new BlockItem(ExtraDelightBlocks.CINNAMON_SLAB.get(), new Item.Properties().tab(EXTRA_DELIGHT_TAB)) {
+				public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+					return 300;
+				}
+			});
 
 	public static final RegistryObject<Item> CINNAMON_BARK = ITEMS.register("cinnamon_bark",
-			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB)) {
+				public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+					return 150;
+				}
+			});
 	public static final RegistryObject<Item> RAW_CINNAMON = ITEMS.register("raw_cinnamon",
-			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB)) {
+				public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+					return 100;
+				}
+			});
 	public static final RegistryObject<Item> CINNAMON_STICK = ITEMS.register("cinnamon_stick",
-			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB)) {
+				public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+					return 100;
+				}
+			});
 	public static final RegistryObject<Item> GROUND_CINNAMON = ITEMS.register("ground_cinnamon",
 			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
 
