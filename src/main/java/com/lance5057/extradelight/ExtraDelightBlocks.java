@@ -229,20 +229,20 @@ public class ExtraDelightBlocks {
 
 	public static final RegistryObject<Block> CHEESE_BLOCK = BLOCKS.register("cheese_block", () -> new Block(
 			BlockBehaviour.Properties.of(Material.SPONGE, MaterialColor.COLOR_ORANGE).sound(SoundType.SLIME_BLOCK)));
-	public static final RegistryObject<Block> CHEESE_STAIRS_BLOCK = BLOCKS.register("cheese_stairs_block",
+	public static final RegistryObject<StairBlock> CHEESE_STAIRS_BLOCK = BLOCKS.register("cheese_stairs_block",
 			() -> new StairBlock(() -> CHEESE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties
 					.of(Material.SPONGE, MaterialColor.COLOR_ORANGE).sound(SoundType.SLIME_BLOCK)));
-	public static final RegistryObject<Block> CHEESE_SLAB_BLOCK = BLOCKS.register("cheese_slab_block",
+	public static final RegistryObject<SlabBlock> CHEESE_SLAB_BLOCK = BLOCKS.register("cheese_slab_block",
 			() -> new SlabBlock(BlockBehaviour.Properties.of(Material.SPONGE, MaterialColor.COLOR_ORANGE)
 					.sound(SoundType.SLIME_BLOCK)));
 
 	public static final RegistryObject<Block> BUTTER_BLOCK = BLOCKS.register("butter_block",
 			() -> new Block(BlockBehaviour.Properties.of(Material.ICE, MaterialColor.COLOR_YELLOW).friction(0.98F)
 					.sound(SoundType.SLIME_BLOCK)));
-	public static final RegistryObject<Block> BUTTER_STAIRS_BLOCK = BLOCKS.register("butter_stairs_block",
+	public static final RegistryObject<StairBlock> BUTTER_STAIRS_BLOCK = BLOCKS.register("butter_stairs_block",
 			() -> new StairBlock(() -> CHEESE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties
 					.of(Material.SPONGE, MaterialColor.COLOR_YELLOW).sound(SoundType.SLIME_BLOCK)));
-	public static final RegistryObject<Block> BUTTER_SLAB_BLOCK = BLOCKS.register("butter_slab_block",
+	public static final RegistryObject<SlabBlock> BUTTER_SLAB_BLOCK = BLOCKS.register("butter_slab_block",
 			() -> new SlabBlock(BlockBehaviour.Properties.of(Material.SPONGE, MaterialColor.COLOR_YELLOW)
 					.sound(SoundType.SLIME_BLOCK)));
 
@@ -360,7 +360,7 @@ public class ExtraDelightBlocks {
 	public static final RegistryObject<FenceGateBlock> CINNAMON_FENCE_GATE = BLOCKS.register("cinnamon_fence_gate",
 			() -> new FenceGateBlock(Block.Properties.copy(Blocks.ACACIA_FENCE_GATE)));
 	public static final RegistryObject<StairBlock> CINNAMON_STAIRS = BLOCKS.register("cinnamon_stairs",
-			() -> new StairBlock(CINNAMON_PLANKS.get().defaultBlockState(),
+			() -> new StairBlock(() -> CINNAMON_PLANKS.get().defaultBlockState(),
 					Block.Properties.copy(Blocks.ACACIA_STAIRS)));
 	public static final RegistryObject<DoorBlock> CINNAMON_DOOR = BLOCKS.register("cinnamon_door",
 			() -> new DoorBlock(Block.Properties.copy(Blocks.ACACIA_DOOR)));
@@ -374,7 +374,7 @@ public class ExtraDelightBlocks {
 			() -> new SlabBlock(Block.Properties.copy(Blocks.DARK_OAK_SLAB)));
 	public static final RegistryObject<Block> CINNAMON_STICK_BLOCK = BLOCKS.register("cinnamon_stick_block",
 			() -> new Block(Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.COLOR_BROWN)));
-	public static final RegistryObject<Block> GROUND_CINNAMON_BLOCK = BLOCKS.register("ground_cinnamon_block",
+	public static final RegistryObject<Block> GROUND_CINNAMON_SACK = BLOCKS.register("ground_cinnamon_sack",
 			() -> new Block(Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.COLOR_BROWN)));
 	public static final RegistryObject<Block> RAW_CINNAMON_BLOCK = BLOCKS.register("raw_cinnamon_block",
 			() -> new Block(Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.COLOR_BROWN)));

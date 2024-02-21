@@ -96,7 +96,13 @@ public class BlockModels extends BlockStateProvider {
 		this.recipeFeastBlock(ExtraDelightBlocks.MASHED_POTATO_GRAVY.get());
 		this.recipeFeastBlock(ExtraDelightBlocks.SALISBURY_STEAK_FEAST.get());
 		this.simpleBlock(ExtraDelightBlocks.CHEESE_BLOCK.get());
+		this.slabBlock(ExtraDelightBlocks.CHEESE_SLAB_BLOCK.get(), modLoc("block/cheese_block"),
+				modLoc("block/cheese_slab"), modLoc("block/cheese_block"), modLoc("block/cheese_block"));
+		this.stairsBlock(ExtraDelightBlocks.CHEESE_STAIRS_BLOCK.get(), modLoc("block/cheese_slab"));
 		this.simpleBlock(ExtraDelightBlocks.BUTTER_BLOCK.get());
+		this.slabBlock(ExtraDelightBlocks.BUTTER_SLAB_BLOCK.get(), modLoc("block/butter_block"),
+				modLoc("block/butter_slab"), modLoc("block/butter_block"), modLoc("block/butter_block"));
+		this.stairsBlock(ExtraDelightBlocks.BUTTER_STAIRS_BLOCK.get(), modLoc("block/butter_slab"));
 
 		this.recipeFeastBlock(ExtraDelightBlocks.HASH_FEAST.get());
 		this.recipeFeastBlock(ExtraDelightBlocks.POT_ROAST_FEAST.get());

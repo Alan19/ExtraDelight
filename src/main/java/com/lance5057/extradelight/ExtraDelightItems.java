@@ -1086,7 +1086,7 @@ public class ExtraDelightItems {
 	public static final RegistryObject<Item> GROUND_CINNAMON = ITEMS.register("ground_cinnamon",
 			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
 	public static final RegistryObject<BlockItem> GROUND_CINNAMON_BLOCK_ITEM = ITEMS.register("ground_cinnamon_block",
-			() -> new BlockItem(ExtraDelightBlocks.GROUND_CINNAMON_BLOCK.get(),
+			() -> new BlockItem(ExtraDelightBlocks.GROUND_CINNAMON_SACK.get(),
 					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
 
 	public static final RegistryObject<Item> ICE_CREAM = ITEMS.register("ice_cream", () -> new Item(

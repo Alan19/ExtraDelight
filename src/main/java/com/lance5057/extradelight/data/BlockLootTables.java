@@ -57,6 +57,7 @@ public class BlockLootTables extends BlockLoot {
 
 		this.dropSelf(ExtraDelightBlocks.FLOUR.get());
 		this.dropSelf(ExtraDelightBlocks.COOKING_OIL.get());
+		this.dropSelf(ExtraDelightBlocks.BREADCRUMBS.get());
 
 		this.dropSelf(ExtraDelightBlocks.MORTAR_STONE.get());
 		this.dropSelf(ExtraDelightBlocks.MORTAR_ANDESITE.get());
@@ -87,7 +88,13 @@ public class BlockLootTables extends BlockLoot {
 		this.dropOther(ExtraDelightBlocks.MASHED_POTATO_GRAVY.get(), Items.BOWL);
 
 		dropSelf(ExtraDelightBlocks.CHEESE_BLOCK.get());
+		this.add(ExtraDelightBlocks.CHEESE_SLAB_BLOCK.get(),
+				createSlabItemTable(ExtraDelightBlocks.CHEESE_SLAB_BLOCK.get()));
+		this.dropSelf(ExtraDelightBlocks.CHEESE_STAIRS_BLOCK.get());
 		dropSelf(ExtraDelightBlocks.BUTTER_BLOCK.get());
+		this.add(ExtraDelightBlocks.BUTTER_SLAB_BLOCK.get(),
+				createSlabItemTable(ExtraDelightBlocks.BUTTER_SLAB_BLOCK.get()));
+		this.dropSelf(ExtraDelightBlocks.BUTTER_STAIRS_BLOCK.get());
 
 		this.dropOther(ExtraDelightBlocks.HASH_FEAST.get(), Items.BOWL);
 		this.dropOther(ExtraDelightBlocks.POT_ROAST_FEAST.get(), Items.BOWL);
@@ -151,11 +158,19 @@ public class BlockLootTables extends BlockLoot {
 		this.dropSelf(ExtraDelightBlocks.CORN_HUSK_BUNDLE.get());
 		this.dropSelf(ExtraDelightBlocks.DRIED_CORN_HUSK_BUNDLE.get());
 		this.dropSelf(ExtraDelightBlocks.CORN_COB_BUNDLE.get());
-
+		this.dropSelf(ExtraDelightBlocks.GROUND_CINNAMON_SACK.get());
+		this.dropSelf(ExtraDelightBlocks.RAW_CINNAMON_BLOCK.get());
+		this.dropSelf(ExtraDelightBlocks.CORN_SACK.get());
+		this.dropSelf(ExtraDelightBlocks.CORN_SILK_SACK.get());
+		this.dropSelf(ExtraDelightBlocks.BREADCRUMB_SACK.get());
+		this.dropSelf(ExtraDelightBlocks.EGG_CRATE.get());
+		this.dropSelf(ExtraDelightBlocks.CINNAMON_STICK_BLOCK.get());
+		this.dropSelf(ExtraDelightBlocks.GINGER_CRATE.get());
+		this.dropSelf(ExtraDelightBlocks.MINT_SACK.get());
+		
 		this.dropSelf(ExtraDelightBlocks.CINNAMON_LOG.get());
 		this.dropSelf(ExtraDelightBlocks.STRIPPED_CINNAMON_LOG.get());
 		this.dropSelf(ExtraDelightBlocks.CINNAMON_PLANKS.get());
-//		this.dropSelf(ExtraDelightBlocks.CINNAMON_LEAVES.get());
 
 		this.add(ExtraDelightBlocks.CINNAMON_LEAVES.get(), (p_124100_) -> {
 			return createLeavesDrops(p_124100_, ExtraDelightBlocks.CINNAMON_SAPLING.get(),
