@@ -101,6 +101,8 @@ public class ExtraDelightBlocks {
 	public static final RegistryObject<Block> COOKING_OIL = BLOCKS.register("cooking_oil",
 			() -> new CarpetBlock(Properties.of(Material.WATER).strength(0.1F, 0.0F).sound(SoundType.SLIME_BLOCK)
 					.noOcclusion().friction(0.98f)));
+	public static final RegistryObject<Block> BREADCRUMBS = BLOCKS.register("breadcrumbs", () -> new CarpetBlock(
+			Properties.of(Material.MOSS).strength(0.1F, 0.0F).sound(SoundType.WOOL).noOcclusion()));
 
 	public static final RegistryObject<Block> SWEET_BERRY_PIE = ExtraDelightBlocks.BLOCKS.register("sweet_berry_pie",
 			() -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ExtraDelightItems.SWEET_BERRY_PIE_SLICE));
@@ -227,8 +229,21 @@ public class ExtraDelightBlocks {
 
 	public static final RegistryObject<Block> CHEESE_BLOCK = BLOCKS.register("cheese_block", () -> new Block(
 			BlockBehaviour.Properties.of(Material.SPONGE, MaterialColor.COLOR_ORANGE).sound(SoundType.SLIME_BLOCK)));
+	public static final RegistryObject<Block> CHEESE_STAIRS_BLOCK = BLOCKS.register("cheese_stairs_block",
+			() -> new StairBlock(() -> CHEESE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties
+					.of(Material.SPONGE, MaterialColor.COLOR_ORANGE).sound(SoundType.SLIME_BLOCK)));
+	public static final RegistryObject<Block> CHEESE_SLAB_BLOCK = BLOCKS.register("cheese_slab_block",
+			() -> new SlabBlock(BlockBehaviour.Properties.of(Material.SPONGE, MaterialColor.COLOR_ORANGE)
+					.sound(SoundType.SLIME_BLOCK)));
+
 	public static final RegistryObject<Block> BUTTER_BLOCK = BLOCKS.register("butter_block",
 			() -> new Block(BlockBehaviour.Properties.of(Material.ICE, MaterialColor.COLOR_YELLOW).friction(0.98F)
+					.sound(SoundType.SLIME_BLOCK)));
+	public static final RegistryObject<Block> BUTTER_STAIRS_BLOCK = BLOCKS.register("butter_stairs_block",
+			() -> new StairBlock(() -> CHEESE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties
+					.of(Material.SPONGE, MaterialColor.COLOR_YELLOW).sound(SoundType.SLIME_BLOCK)));
+	public static final RegistryObject<Block> BUTTER_SLAB_BLOCK = BLOCKS.register("butter_slab_block",
+			() -> new SlabBlock(BlockBehaviour.Properties.of(Material.SPONGE, MaterialColor.COLOR_YELLOW)
 					.sound(SoundType.SLIME_BLOCK)));
 
 	public static final RegistryObject<RecipeFeastBlock> MACARONI_CHEESE = BLOCKS.register("macaroni_cheese_block",
@@ -313,6 +328,10 @@ public class ExtraDelightBlocks {
 			() -> new Block(Block.Properties.copy(Blocks.WHITE_WOOL).color(MaterialColor.COLOR_BROWN)));
 	public static final RegistryObject<Block> SUGAR_SACK = BLOCKS.register("sugar_sack",
 			() -> new Block(Block.Properties.copy(Blocks.WHITE_WOOL).color(MaterialColor.COLOR_BROWN)));
+	public static final RegistryObject<Block> CORN_SACK = BLOCKS.register("corn_sack",
+			() -> new Block(Block.Properties.copy(Blocks.WHITE_WOOL).color(MaterialColor.COLOR_BROWN)));
+	public static final RegistryObject<Block> CORN_SILK_SACK = BLOCKS.register("corn_silk_sack",
+			() -> new Block(Block.Properties.copy(Blocks.WHITE_WOOL).color(MaterialColor.COLOR_BROWN)));
 	public static final RegistryObject<Block> CORN_CRATE = BLOCKS.register("corn_crate", () -> new Block(
 			Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.TERRACOTTA_YELLOW)));
 	public static final RegistryObject<HayBlock> CORN_HUSK_BUNDLE = BLOCKS.register("corn_husk_bundle",
@@ -321,6 +340,10 @@ public class ExtraDelightBlocks {
 			() -> new HayBlock(Block.Properties.copy(Blocks.HAY_BLOCK).color(MaterialColor.TERRACOTTA_YELLOW)));
 	public static final RegistryObject<HayBlock> CORN_COB_BUNDLE = BLOCKS.register("corn_cob_bundle",
 			() -> new HayBlock(Block.Properties.copy(Blocks.HAY_BLOCK).color(MaterialColor.TERRACOTTA_YELLOW)));
+	public static final RegistryObject<Block> BREADCRUMB_SACK = BLOCKS.register("breadcrumb_sack",
+			() -> new Block(Block.Properties.copy(Blocks.WHITE_WOOL).color(MaterialColor.COLOR_BROWN)));
+	public static final RegistryObject<Block> EGG_CRATE = BLOCKS.register("egg_crate", () -> new Block(
+			Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.TERRACOTTA_YELLOW)));
 
 	// Winter start!
 	public static final RegistryObject<SaplingBlock> CINNAMON_SAPLING = BLOCKS.register("cinnamon_sapling",
@@ -349,6 +372,12 @@ public class ExtraDelightBlocks {
 			() -> new CabinetBlock(Block.Properties.copy(Blocks.BARREL)));
 	public static final RegistryObject<SlabBlock> CINNAMON_SLAB = BLOCKS.register("cinnamon_slab",
 			() -> new SlabBlock(Block.Properties.copy(Blocks.DARK_OAK_SLAB)));
+	public static final RegistryObject<Block> CINNAMON_STICK_BLOCK = BLOCKS.register("cinnamon_stick_block",
+			() -> new Block(Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.COLOR_BROWN)));
+	public static final RegistryObject<Block> GROUND_CINNAMON_BLOCK = BLOCKS.register("ground_cinnamon_block",
+			() -> new Block(Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.COLOR_BROWN)));
+	public static final RegistryObject<Block> RAW_CINNAMON_BLOCK = BLOCKS.register("raw_cinnamon_block",
+			() -> new Block(Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.COLOR_BROWN)));
 
 	public static final RegistryObject<Block> APPLE_CHEESECAKE = ExtraDelightBlocks.BLOCKS.register("apple_cheesecake",
 			() -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ExtraDelightItems.APPLE_CHEESECAKE_SLICE));
@@ -372,9 +401,13 @@ public class ExtraDelightBlocks {
 
 	public static final RegistryObject<GingerCrop> GINGER_CROP = BLOCKS.register("ginger_crop",
 			() -> new GingerCrop(Block.Properties.copy(Blocks.WHEAT)));
+	public static final RegistryObject<Block> GINGER_CRATE = BLOCKS.register("ginger_crate", () -> new Block(
+			Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.TERRACOTTA_BROWN)));
 	public static final RegistryObject<Block> WILD_GINGER = BLOCKS.register("wild_ginger",
 			() -> new WildCropBlock(MobEffects.FIRE_RESISTANCE, 6, Block.Properties.copy(Blocks.TALL_GRASS)));
 	public static final RegistryObject<MintCrop> MINT_CROP = BLOCKS.register("mint_crop", MintCrop::new);
+	public static final RegistryObject<Block> MINT_SACK = BLOCKS.register("mint_sack",
+			() -> new Block(Block.Properties.copy(Blocks.WHITE_WOOL).color(MaterialColor.COLOR_BROWN)));
 
 	public static final RegistryObject<CandyBowlBlock> CANDY_BOWL = BLOCKS.register("candy_bowl",
 			() -> new CandyBowlBlock(Block.Properties.copy(Blocks.GLASS)));

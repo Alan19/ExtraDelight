@@ -462,8 +462,21 @@ public class ExtraDelightItems {
 
 	public static final RegistryObject<BlockItem> CHEESE_BLOCK_ITEM = ITEMS.register("cheese_block_item",
 			() -> new BlockItem(ExtraDelightBlocks.CHEESE_BLOCK.get(), new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+	public static final RegistryObject<BlockItem> CHEESE_STAIRS_BLOCK_ITEM = ITEMS.register("cheese_stairs_block_item",
+			() -> new BlockItem(ExtraDelightBlocks.CHEESE_STAIRS_BLOCK.get(),
+					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+	public static final RegistryObject<BlockItem> CHEESE_SLAB_BLOCK_ITEM = ITEMS.register("cheese_slab_block_item",
+			() -> new BlockItem(ExtraDelightBlocks.CHEESE_SLAB_BLOCK.get(),
+					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+
 	public static final RegistryObject<BlockItem> BUTTER_BLOCK_ITEM = ITEMS.register("butter_block_item",
 			() -> new BlockItem(ExtraDelightBlocks.BUTTER_BLOCK.get(), new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+	public static final RegistryObject<BlockItem> BUTTER_STAIRS_BLOCK_ITEM = ITEMS.register("butter_stairs_block_item",
+			() -> new BlockItem(ExtraDelightBlocks.BUTTER_STAIRS_BLOCK.get(),
+					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+	public static final RegistryObject<BlockItem> BUTTER_SLAB_BLOCK_ITEM = ITEMS.register("butter_slab_block_item",
+			() -> new BlockItem(ExtraDelightBlocks.BUTTER_SLAB_BLOCK.get(),
+					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
 
 	// Stews
 	public static final RegistryObject<BowlFoodItem> PORK_STEW = ITEMS.register("pork_stew",
@@ -707,7 +720,8 @@ public class ExtraDelightItems {
 	public static final RegistryObject<Item> TOAST = ITEMS.register("toast",
 			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB).food(EDFoods.SLICED_BREAD)));
 	public static final RegistryObject<Item> BREAD_CRUMBS = ITEMS.register("breadcrumbs",
-			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB).food(EDFoods.SLICED_BREAD)));
+			() -> new BlockItem(ExtraDelightBlocks.BREADCRUMBS.get(),
+					new Item.Properties().tab(EXTRA_DELIGHT_TAB).food(EDFoods.SLICED_BREAD)));
 
 	public static final RegistryObject<Item> BREADING_MISANPLAS = ITEMS.register("breading_misanplas",
 			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB).craftRemainder(Items.BOWL)));
@@ -956,6 +970,11 @@ public class ExtraDelightItems {
 	public static final RegistryObject<BlockItem> CORN_COB_BUNDLE = ITEMS.register("corn_cob_bundle",
 			() -> new BlockItem(ExtraDelightBlocks.CORN_COB_BUNDLE.get(),
 					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+	public static final RegistryObject<BlockItem> BREADCRUMB_SACK = ITEMS.register("breadcrumb_sack",
+			() -> new BlockItem(ExtraDelightBlocks.BREADCRUMB_SACK.get(),
+					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+	public static final RegistryObject<BlockItem> EGG_CRATE = ITEMS.register("egg_crate",
+			() -> new BlockItem(ExtraDelightBlocks.EGG_CRATE.get(), new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
 
 	public static final RegistryObject<Item> CORN_COB_PIPE = ITEMS.register("corn_cob_pipe",
 			() -> new CorncobPipe(EDArmorMaterial.CORNCOB, new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
@@ -1044,14 +1063,31 @@ public class ExtraDelightItems {
 					return 100;
 				}
 			});
+	public static final RegistryObject<BlockItem> RAW_CINNAMON_BLOCK = ITEMS.register("raw_cinnamon_block",
+			() -> new BlockItem(ExtraDelightBlocks.RAW_CINNAMON_BLOCK.get(),
+					new Item.Properties().tab(EXTRA_DELIGHT_TAB)) {
+				public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+					return 900;
+				}
+			});
 	public static final RegistryObject<Item> CINNAMON_STICK = ITEMS.register("cinnamon_stick",
 			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB)) {
 				public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
 					return 100;
 				}
 			});
+	public static final RegistryObject<BlockItem> CINNAMON_STICK_BLOCK = ITEMS.register("cinnamon_stick_block",
+			() -> new BlockItem(ExtraDelightBlocks.CINNAMON_STICK_BLOCK.get(),
+					new Item.Properties().tab(EXTRA_DELIGHT_TAB)) {
+				public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+					return 900;
+				}
+			});
 	public static final RegistryObject<Item> GROUND_CINNAMON = ITEMS.register("ground_cinnamon",
 			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+	public static final RegistryObject<BlockItem> GROUND_CINNAMON_BLOCK_ITEM = ITEMS.register("ground_cinnamon_block",
+			() -> new BlockItem(ExtraDelightBlocks.GROUND_CINNAMON_BLOCK.get(),
+					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
 
 	public static final RegistryObject<Item> ICE_CREAM = ITEMS.register("ice_cream", () -> new Item(
 			new Item.Properties().tab(EXTRA_DELIGHT_TAB).food(EDFoods.ICE_CREAM).craftRemainder(Items.BOWL)));
@@ -1236,10 +1272,14 @@ public class ExtraDelightItems {
 					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
 	public static final RegistryObject<BlockItem> WILD_GINGER = ITEMS.register("wild_ginger",
 			() -> new BlockItem(ExtraDelightBlocks.WILD_GINGER.get(), new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+	public static final RegistryObject<Item> GINGER_CRATE = ITEMS.register("ginger_crate",
+			() -> new BlockItem(ExtraDelightBlocks.GINGER_CRATE.get(), new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
 
 	public static final RegistryObject<Item> MINT = ITEMS.register("mint",
 			() -> new ItemNameBlockItem(ExtraDelightBlocks.MINT_CROP.get(),
 					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+	public static final RegistryObject<Item> MINT_SACK = ITEMS.register("mint_sack",
+			() -> new BlockItem(ExtraDelightBlocks.MINT_SACK.get(), new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
 
 	public static final RegistryObject<Item> PEELED_GINGER = ITEMS.register("peeled_ginger",
 			() -> new Item(new Item.Properties().tab(EXTRA_DELIGHT_TAB).food(Foods.POTATO)));
