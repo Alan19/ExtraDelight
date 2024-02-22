@@ -786,6 +786,26 @@ public class ItemModels extends ItemModelProvider {
 		forItem(ExtraDelightItems.MILK_TART_FEAST, "milk_tart");
 		forBlockItem(ExtraDelightItems.PUNCH_FEAST, new ResourceLocation(ExtraDelight.MOD_ID, "block/punch_stage0"));
 		forBlockItem(ExtraDelightItems.WILD_GINGER, "wild_ginger");
+		
+		forBlockItem(ExtraDelightItems.CHEESE_STAIRS_BLOCK_ITEM, "cheese_stairs");
+		forBlockItem(ExtraDelightItems.CHEESE_SLAB_BLOCK_ITEM, "cheese_slab");
+		forBlockItem(ExtraDelightItems.BUTTER_STAIRS_BLOCK_ITEM, "butter_stairs");
+		forBlockItem(ExtraDelightItems.BUTTER_SLAB_BLOCK_ITEM, "butter_slab");
+		
+		forBlockItem(ExtraDelightItems.BREADCRUMB_SACK, "breadcrumb_sack");
+		forBlockItem(ExtraDelightItems.EGG_CRATE, "egg_crate");
+		forBlockItem(ExtraDelightItems.RAW_CINNAMON_BLOCK, "raw_cinnamon_block");
+		forBlockItem(ExtraDelightItems.CINNAMON_STICK_BLOCK, "cinnamon_stick_block");
+		forBlockItem(ExtraDelightItems.GROUND_CINNAMON_BLOCK_ITEM, "ground_cinnamon_block");
+		forBlockItem(ExtraDelightItems.GINGER_CRATE, "ginger_crate");
+		forBlockItem(ExtraDelightItems.MINT_SACK, "mint_sack");
+		forBlockItem(ExtraDelightItems.APPLE_CRATE, "apple_crate");
+		forBlockItem(ExtraDelightItems.GOLDEN_APPLE_CRATE, "golden_apple_crate");
+		forBlockItem(ExtraDelightItems.RED_MUSHROOM_CRATE, "red_mushroom_crate");
+		forBlockItem(ExtraDelightItems.BROWN_MUSHROOM_CRATE, "brown_mushroom_crate");
+		forBlockItem(ExtraDelightItems.SWEET_BERRY_CRATE, "sweet_berry_crate");
+		forBlockItem(ExtraDelightItems.GLOW_BERRY_CRATE, "glow_berry_crate");
+		forBlockItem(ExtraDelightItems.CORN_SILK_SACK, "corn_silk_sack");
 
 		AestheticBlocks.itemModel(this);
 	}

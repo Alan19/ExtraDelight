@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "": [
+            { "model": "extradelight:block/breadcrumbs"},
+            { "model": "extradelight:block/breadcrumbs1"},
+            { "model": "extradelight:block/breadcrumbs2"}
+        ]
+    }
+}

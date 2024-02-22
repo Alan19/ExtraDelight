@@ -95,7 +95,7 @@ public class JEIPlugin implements IModPlugin {
 				MixingBowlRecipeCategory.TYPE);
 		registry.addRecipeCatalyst(new ItemStack(ExtraDelightItems.MIXING_BOWL.get()), MixingBowlRecipeCategory.TYPE);
 
-//		registry.addRecipeCatalyst(new ItemStack(ExtraDelightItems.OVEN.get()), OvenRecipeCategory.TYPE);
+		registry.addRecipeCatalyst(new ItemStack(ExtraDelightItems.OVEN.get()), OvenRecipeCategory.TYPE);
 //		registry.addRecipeCatalyst(new ItemStack(ExtraDelightItems.BAKING_STONE.get()), OvenRecipeCategory.TYPE);
 //		registry.addRecipeCatalyst(new ItemStack(ExtraDelightItems.LOAF_PAN.get()), OvenRecipeCategory.TYPE);
 //		registry.addRecipeCatalyst(new ItemStack(ExtraDelightItems.ROUND_PAN.get()), OvenRecipeCategory.TYPE);

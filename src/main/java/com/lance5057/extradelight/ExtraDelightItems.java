@@ -1286,13 +1286,13 @@ public class ExtraDelightItems {
 					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
 	public static final RegistryObject<BlockItem> WILD_GINGER = ITEMS.register("wild_ginger",
 			() -> new BlockItem(ExtraDelightBlocks.WILD_GINGER.get(), new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
-	public static final RegistryObject<Item> GINGER_CRATE = ITEMS.register("ginger_crate",
+	public static final RegistryObject<BlockItem> GINGER_CRATE = ITEMS.register("ginger_crate",
 			() -> new BlockItem(ExtraDelightBlocks.GINGER_CRATE.get(), new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
 
 	public static final RegistryObject<Item> MINT = ITEMS.register("mint",
 			() -> new ItemNameBlockItem(ExtraDelightBlocks.MINT_CROP.get(),
 					new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
-	public static final RegistryObject<Item> MINT_SACK = ITEMS.register("mint_sack",
+	public static final RegistryObject<BlockItem> MINT_SACK = ITEMS.register("mint_sack",
 			() -> new BlockItem(ExtraDelightBlocks.MINT_SACK.get(), new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
 
 	public static final RegistryObject<Item> PEELED_GINGER = ITEMS.register("peeled_ginger",
