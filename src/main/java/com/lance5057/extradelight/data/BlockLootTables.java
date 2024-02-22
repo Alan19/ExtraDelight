@@ -30,7 +30,7 @@ import net.minecraftforge.registries.RegistryObject;
 import vectorwing.farmersdelight.common.registry.ModItems;
 
 public class BlockLootTables extends BlockLoot {
-	private static final float[] NORMAL_LEAVES_SAPLING_CHANCES = new float[] { 0.05F, 0.0625F, 0.083333336F, 0.1F };
+	private static final float[] NORMAL_LEAVES_SAPLING_CHANCES = new float[] { 0.05F*2, 0.0625F*2, 0.083333336F*2, 0.1F*2 };
 	private static final float[] NORMAL_LEAVES_STICK_CHANCES = new float[] { 0.02F, 0.022222223F, 0.025F, 0.033333335F,
 			0.1F };
 
@@ -167,6 +167,12 @@ public class BlockLootTables extends BlockLoot {
 		this.dropSelf(ExtraDelightBlocks.CINNAMON_STICK_BLOCK.get());
 		this.dropSelf(ExtraDelightBlocks.GINGER_CRATE.get());
 		this.dropSelf(ExtraDelightBlocks.MINT_SACK.get());
+		this.dropSelf(ExtraDelightBlocks.SWEET_BERRY_CRATE.get());
+		this.dropSelf(ExtraDelightBlocks.APPLE_CRATE.get());
+		this.dropSelf(ExtraDelightBlocks.GOLDEN_APPLE_CRATE.get());
+		this.dropSelf(ExtraDelightBlocks.GLOW_BERRY_CRATE.get());
+		this.dropSelf(ExtraDelightBlocks.BROWN_MUSHROOM_CRATE.get());
+		this.dropSelf(ExtraDelightBlocks.RED_MUSHROOM_CRATE.get());
 		
 		this.dropSelf(ExtraDelightBlocks.CINNAMON_LOG.get());
 		this.dropSelf(ExtraDelightBlocks.STRIPPED_CINNAMON_LOG.get());

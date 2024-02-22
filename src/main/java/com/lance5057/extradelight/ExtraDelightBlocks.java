@@ -344,8 +344,8 @@ public class ExtraDelightBlocks {
 			() -> new Block(Block.Properties.copy(Blocks.WHITE_WOOL).color(MaterialColor.COLOR_BROWN)));
 	public static final RegistryObject<Block> EGG_CRATE = BLOCKS.register("egg_crate", () -> new Block(
 			Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.TERRACOTTA_YELLOW)));
-	public static final RegistryObject<Block> APPLE_CRATE = BLOCKS.register("apple_crate", () -> new Block(
-			Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.COLOR_RED)));
+	public static final RegistryObject<Block> APPLE_CRATE = BLOCKS.register("apple_crate",
+			() -> new Block(Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.COLOR_RED)));
 
 	// Winter start!
 	public static final RegistryObject<SaplingBlock> CINNAMON_SAPLING = BLOCKS.register("cinnamon_sapling",
@@ -374,8 +374,9 @@ public class ExtraDelightBlocks {
 			() -> new CabinetBlock(Block.Properties.copy(Blocks.BARREL)));
 	public static final RegistryObject<SlabBlock> CINNAMON_SLAB = BLOCKS.register("cinnamon_slab",
 			() -> new SlabBlock(Block.Properties.copy(Blocks.DARK_OAK_SLAB)));
-	public static final RegistryObject<Block> CINNAMON_STICK_BLOCK = BLOCKS.register("cinnamon_stick_block",
-			() -> new Block(Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.COLOR_BROWN)));
+	public static final RegistryObject<RotatedPillarBlock> CINNAMON_STICK_BLOCK = BLOCKS
+			.register("cinnamon_stick_block", () -> new RotatedPillarBlock(
+					Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.COLOR_BROWN)));
 	public static final RegistryObject<Block> GROUND_CINNAMON_SACK = BLOCKS.register("ground_cinnamon_sack",
 			() -> new Block(Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.COLOR_BROWN)));
 	public static final RegistryObject<Block> RAW_CINNAMON_BLOCK = BLOCKS.register("raw_cinnamon_block",
@@ -410,12 +411,18 @@ public class ExtraDelightBlocks {
 	public static final RegistryObject<MintCrop> MINT_CROP = BLOCKS.register("mint_crop", MintCrop::new);
 	public static final RegistryObject<Block> MINT_SACK = BLOCKS.register("mint_sack",
 			() -> new Block(Block.Properties.copy(Blocks.WHITE_WOOL).color(MaterialColor.COLOR_BROWN)));
-	public static final RegistryObject<Block> GOLDEN_APPLE_CRATE = BLOCKS.register("golden_apple_crate", () -> new Block(
-			Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.TERRACOTTA_BROWN)));
-	public static final RegistryObject<Block> BROWN_MUSHROOM_CRATE = BLOCKS.register("brown_mushroom_crate", () -> new Block(
-			Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.TERRACOTTA_BROWN)));
-	public static final RegistryObject<Block> RED_MUSHROOM_CRATE = BLOCKS.register("red_mushroom_crate", () -> new Block(
-			Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.TERRACOTTA_BROWN)));
+	public static final RegistryObject<Block> GOLDEN_APPLE_CRATE = BLOCKS.register("golden_apple_crate",
+			() -> new Block(
+					Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.TERRACOTTA_BROWN)));
+	public static final RegistryObject<Block> BROWN_MUSHROOM_CRATE = BLOCKS.register("brown_mushroom_crate",
+			() -> new Block(
+					Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.TERRACOTTA_BROWN)));
+	public static final RegistryObject<Block> RED_MUSHROOM_CRATE = BLOCKS.register("red_mushroom_crate",
+			() -> new Block(Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.COLOR_RED)));
+	public static final RegistryObject<Block> SWEET_BERRY_CRATE = BLOCKS.register("sweet_berry_crate",
+			() -> new Block(Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.COLOR_RED)));
+	public static final RegistryObject<Block> GLOW_BERRY_CRATE = BLOCKS.register("glow_berry_crate",
+			() -> new Block(Block.Properties.copy(ModBlocks.BEETROOT_CRATE.get()).color(MaterialColor.COLOR_YELLOW)));
 
 	public static final RegistryObject<CandyBowlBlock> CANDY_BOWL = BLOCKS.register("candy_bowl",
 			() -> new CandyBowlBlock(Block.Properties.copy(Blocks.GLASS)));

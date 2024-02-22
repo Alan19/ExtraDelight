@@ -166,6 +166,7 @@ public class BlockModels extends BlockStateProvider {
 
 		this.logBlock(ExtraDelightBlocks.CINNAMON_LOG.get());
 		this.logBlock(ExtraDelightBlocks.STRIPPED_CINNAMON_LOG.get());
+		this.logBlock(ExtraDelightBlocks.CINNAMON_STICK_BLOCK.get());
 		this.simpleBlock(ExtraDelightBlocks.CINNAMON_LEAVES.get());
 		this.simpleBlock(ExtraDelightBlocks.CINNAMON_PLANKS.get());
 		this.simpleCross(ExtraDelightBlocks.CINNAMON_SAPLING);

@@ -985,7 +985,11 @@ public class ExtraDelightItems {
 			() -> new BlockItem(ExtraDelightBlocks.RED_MUSHROOM_CRATE.get(), new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
 	public static final RegistryObject<BlockItem> SWEET_BERRY_CRATE = ITEMS.register("sweet_berry_crate",
 			() -> new BlockItem(ExtraDelightBlocks.SWEET_BERRY_CRATE.get(), new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
-
+	public static final RegistryObject<BlockItem> GLOW_BERRY_CRATE = ITEMS.register("glow_berry_crate",
+			() -> new BlockItem(ExtraDelightBlocks.GLOW_BERRY_CRATE.get(), new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+	public static final RegistryObject<BlockItem> CORN_SILK_SACK = ITEMS.register("corn_silk_sack",
+			() -> new BlockItem(ExtraDelightBlocks.CORN_SILK_SACK.get(), new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
+	
 	public static final RegistryObject<Item> CORN_COB_PIPE = ITEMS.register("corn_cob_pipe",
 			() -> new CorncobPipe(EDArmorMaterial.CORNCOB, new Item.Properties().tab(EXTRA_DELIGHT_TAB)));
 
