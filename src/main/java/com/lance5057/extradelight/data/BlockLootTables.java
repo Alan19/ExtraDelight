@@ -58,6 +58,7 @@ public class BlockLootTables extends BlockLoot {
 		this.dropSelf(ExtraDelightBlocks.FLOUR.get());
 		this.dropSelf(ExtraDelightBlocks.COOKING_OIL.get());
 		this.dropSelf(ExtraDelightBlocks.BREADCRUMBS.get());
+		this.dropSelf(ExtraDelightBlocks.CORNMEAL.get());
 
 		this.dropSelf(ExtraDelightBlocks.MORTAR_STONE.get());
 		this.dropSelf(ExtraDelightBlocks.MORTAR_ANDESITE.get());

@@ -3,8 +3,8 @@
 	"parent": "block/thin_block",
 	"render_type": "translucent",
 	"textures": {
-		"1": "extradelight:block/flour_dust",
-		"particle": "extradelight:block/flour_dust2"
+		"1": "extradelight:block/cornmeal_dust",
+		"particle": "extradelight:block/cornmeal_dust2"
 	},
 	"elements": [
 		{

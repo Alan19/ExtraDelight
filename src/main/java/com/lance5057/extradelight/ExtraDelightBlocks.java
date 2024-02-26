@@ -103,7 +103,9 @@ public class ExtraDelightBlocks {
 					.noOcclusion().friction(0.98f)));
 	public static final RegistryObject<Block> BREADCRUMBS = BLOCKS.register("breadcrumbs", () -> new CarpetBlock(
 			Properties.of(Material.MOSS).strength(0.1F, 0.0F).sound(SoundType.WOOL).noOcclusion()));
-
+	public static final RegistryObject<Block> CORNMEAL = BLOCKS.register("cornmeal", () -> new CarpetBlock(
+			Properties.of(Material.MOSS).strength(0.1F, 0.0F).sound(SoundType.WOOL).noOcclusion()));
+	
 	public static final RegistryObject<Block> SWEET_BERRY_PIE = ExtraDelightBlocks.BLOCKS.register("sweet_berry_pie",
 			() -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ExtraDelightItems.SWEET_BERRY_PIE_SLICE));
 	public static final RegistryObject<Block> GLOW_BERRY_PIE = ExtraDelightBlocks.BLOCKS.register("glow_berry_pie",

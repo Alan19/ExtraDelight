@@ -1,4 +1,4 @@
-// 1.19.2	2024-02-21T23:57:42.5016495	LootTables
+// 1.19.2	2024-02-22T19:48:53.9745125	LootTables
 6f2f14764aeccabb899ed56e1d8a8f0074aa0929 data/extradelight/loot_tables/blocks/acacia_dried_corn_fence.json
 2df5ce0c265b62e0751dfbde70e812a38a2bd169 data/extradelight/loot_tables/blocks/acacia_half_cabinet.json
 7747bac4a9ea01dff06964433ec737b240944275 data/extradelight/loot_tables/blocks/acacia_knife_block.json
@@ -114,6 +114,7 @@ ad7b5ca274b05de5abb107ae08690d78799d168a data/extradelight/loot_tables/blocks/ci
 2b2a4bde1a1c86393b28fa3ff9b81ef1ddeed22d data/extradelight/loot_tables/blocks/coffee_cake.json
 bc5e6f6f35cb909e6cdce5270f5cdcbe6e507000 data/extradelight/loot_tables/blocks/cooking_oil.json
 2b2a4bde1a1c86393b28fa3ff9b81ef1ddeed22d data/extradelight/loot_tables/blocks/cornbread.json
+4622d31cc8414f18ea369b69ed3f2a7b32c4f241 data/extradelight/loot_tables/blocks/cornmeal.json
 174fe26017e7ec604d99da3d544b9a2f0c3bb731 data/extradelight/loot_tables/blocks/cornmeal_sack.json
 1eb4bba094f5f7b7dc3e44e5b78d0d287363b4e0 data/extradelight/loot_tables/blocks/corn_bottom.json
 daf64ab68558e7e512705b6b48f48e4d1258bbfe data/extradelight/loot_tables/blocks/corn_cob_bundle.json
